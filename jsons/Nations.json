@@ -1,0 +1,64 @@
+[
+    {
+        "name": "Eggman Empire",
+        "leaderName": "Doctor Eggman",
+        "adjective": ["Eggman"],
+        "startBias": ["Super-Genius Scientists Don't Need One"],
+        "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Take a good look at yourself! It's the last look you'll get before I close your eyes forever! Hoo ho ho ho ho ho ho!",
+        "attacked": "Dahhh ha ha ha ha! As I always say, I am Doctor Eggman, the ruler of the world and the super-genius scientist!!",
+        "defeated": "I will never accept defeat! I won't rest until I see that face of yours streaked with tears!",
+        "introduction": "I am Dr. Eggman, the most brilliant mastermind in the world! I aspire for nothing short of world domination! Many times I have come close--oh so close! But always, at the very last minute, my beautiful plans are foiled by that pest, Sonic!",
+		
+        "neutralHello": "What do you need from THE GREATEST SCIENTIFIC GENIUS IN THE WORLD?",
+        "hateHello": "MUSTACHE MORON???!!! I'M THE WORLD'S GREATEST- [clears throat] Take him out, quickly!",
+		
+        "tradeRequest": "You'll be rewarded handsomely for helping me!",
+		
+		"outerColor": [184, 13, 17],
+		"innerColor": [0, 0, 0],
+		
+        "uniqueName": "Super-Genius Scientist",
+        "uniques": [
+			"[+1 Science] from every [Strategic resource]",
+			"Receive a tech boost when scientific buildings/wonders are built in capital"
+        ],
+        "cities": [
+			"Eggmanland", "Eggperial City", "Metropolis", "Eggland", "Eggman Empire Fortress", 
+			"Robotropolis", "Robotnikland", "Studiopolis", "X-Zone", "XX", 
+			"Atomic Destroyer", "Titanic Monarch", "Electric Egg", "Egg Fortress", "", 
+			"E.G.G. Station", "Sky Fortress", "Silver Castle", "Sleeping Egg", "Final Egg", 
+			"Gimme Shelter", "Egg Toy Land", "Scrap Brain", "Cosmic Angel", "Crystal Egg", 
+			"Sky Base", "Sky Fortress", "Scrambled Egg", "Metallic Madness", "Mad Gear",
+        ]
+		"spyNames": [
+		"Sage",
+		"Rouge",
+		"SA-55",
+		"Orbot",
+		"Cubot",
+		"Metal Sonic",
+		"Metal Knuckles",
+		"Metal Tails",
+		"Metal Amy",
+		"Mecha Sonic",
+		"E-10000B",
+		"E-10000G",
+		"E-10000R",
+		"E-100 ZERO",
+		"E-101 Beta",
+		"E-101 Mark II",
+		"E-102 Gamma",
+		"E-103 Delta",
+		"E-104 Epsilon",
+		"E-105 Zeta",
+		"E-121 Phi",
+		"E-123 Omega"
+		]
+    },
+]
