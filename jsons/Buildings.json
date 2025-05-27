@@ -13,4 +13,19 @@
 		],
 		"requiredTech": "Military Science"
 	},
+	{
+		"name": "Swamp House",
+		"replaces": "Granary",
+		"uniqueTo": "Shrek's Swamp",
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": [
+			"[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]",
+			"[+1 Food, +1 Culture] from [Marsh] tiles [in this city]"
+		],
+		"requiredTech": "Pottery"
+	},
 ]

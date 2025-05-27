@@ -12,5 +12,22 @@
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
+	{
+		"name": "Ogre",
+		"unitType": "Sword",
+		"replaces": "Swordsman",
+		"uniqueTo": "Shrek's Swamp",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Longswordsman",
+		"obsoleteTech": "Steel",
+		"uniques": [
+			"[-10]% Strength for enemy [Land] units in adjacent [All] tiles"
+		],
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
 	
 ]

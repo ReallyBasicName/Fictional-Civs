@@ -17,6 +17,7 @@
 		
         "neutralHello": "What do you need from THE GREATEST SCIENTIFIC GENIUS IN THE WORLD?",
         "hateHello": "MUSTACHE MORON???!!! I'M THE WORLD'S GREATEST- [clears throat] Take him out, quickly!",
+		"denounced": "I won't forget this!",
 		
         "tradeRequest": "You'll be rewarded handsomely for helping me!",
 		
@@ -61,4 +62,53 @@
 		"E-123 Omega"
 		]
     },
+	{
+		"name": "Shrek's Swamp",
+		"leaderName": "Shrek",
+		"adjective": ["Ogre"],
+		"startBias": ["Marsh"],
+		"preferredVictoryType": "Cultural",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "GET OUT OF MY SWAMP!!!",
+		"attacked": "This is the part where you run away.",
+		"defeated": "Finally, I can have my privacy.",
+		"introduction": "I live in a swamp! I put up signs! I'm a terrifying ogre! What do i have to do to get a little privacy?",
+		
+		"neutralHello": "I'm here till Thursday.",
+		"hateHello": "What, are you doing in MY SWAMP?!",
+		"denounced": "I like my privacy anyway.",
+		
+		"tradeRequest": "I need this to get my swamp back.",
+		
+		"outerColor": [0, 56, 22],
+		"innerColor": [156, 209, 68],
+		
+		"uniqueName": "Ogres are like Onions",
+		"uniques": [
+			"[+1 Food, +1 Happiness] from [Marsh] tiles [in all cities]",
+			"[+15]% Strength <for [all] units> <in [{Friendly} {Land}] tiles>"
+		],
+		"cities": [
+			"Shrek's Swamp", "Nice Boulder", "Fiona's Tower", "Dragon's Keep", "Shrek's Wall",
+			"Worcestershire Academy", "Poison Apple", "Potion Factory", "Friar's Fat Boy", "Dead End Graveyard", 
+			"Merlin's House", "Sherwood Forest", "San Ricardo"
+		]
+		"spyNames": [
+			"Donkey",
+			"Puss in Boots",
+			"Gingerbread Man",
+			"Fiona",
+			"Pinocchio",
+			"Big Bad Wolf",
+			"Three Blind Mice",
+			"Three Little Pigs",
+			"Three Good Fairies"
+		]
+	},
 ]
+
+
