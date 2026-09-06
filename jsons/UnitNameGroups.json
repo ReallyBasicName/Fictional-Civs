@@ -1,0 +1,181 @@
+[
+	/*
+	{
+		"name": "",
+		"unitNames": [
+			""
+		],
+		"uniques": [
+		]
+	}
+	*/
+	{
+		"name": "Knight of the Round Table",
+		"unitNames": [
+			"Sir Bedivere", 
+			"Sir Bors the Younger", 
+			"Sir Cador of Cornwall", 
+			"Sir Dinadan", 
+			"Sir Erec", 
+			"Sir Galahad", 
+			"Sir Gareth", 
+			"Sir Gawain", 
+			"Sir Griflet", 
+			"Sir Hoel", 
+			"Sir Lucan", 
+			"Sir Yvain", 
+			"Sir Kay", 
+			"Sir Lancelot", 
+			"Sir Palamedes", 
+			"Sir Percival", 
+			"Sir Tristram de Lyonesse"
+		],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Dictator",
+		"unitNames": [
+			"Peter Griffin",
+			"Muammar al-Gaddafi",
+			"Slobodan Milošević",
+			"Saddam Hussein",
+			"Fidel Castro",
+			"Idi Amin",
+			"Kim Jong-il",
+			"Kim Jong-un",
+			"Kim Il-sung",
+			"Joseph Stalin",
+			"Mao Zedong",
+			"Benito Mussolini",
+			"Augusto Pinochet",
+			"Juvénal Habyarimana",
+			"François Tombalbaye",
+			"Fulgencio Batista",
+			"Francisco Franco",
+			"Hissène Habré",
+			"Mobutu Sese Seko",
+			"Getúlio Vargas",
+			"António de Oliveira Salazar"
+		],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Sage",
+		"unitNames": [
+			"Osfala",
+			"Gulley",
+			"Rosso",
+			"Oren",
+			"Impa",
+			"Irene",
+			"Seres",
+			"Tulin",
+			"Yunobo",
+			"Sidon",
+			"Riju",
+			"Mineru",
+			"Rauru",
+			"Saria",
+			"Darunia",
+			"Princess Ruto",
+			"Nabooru",
+			"Laruto",
+			"Medli",
+			"Fado",
+			"Makar"
+		],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Glamrock Animatronic",
+		"unitNames": [
+			"Montgomery Gator",
+			"Roxanne Wolf",
+			"Glamrock Chica",
+			"Glamrock Bonnie",
+			"Glamrock Mr. Hippo",
+			"Glamrock Freddy",
+			"Prototype Glamrock Freddy",
+			"Sun",
+			"Moon",
+			"DJ Music Man",
+			"Glamrock Endo",
+			"Frozen Glamrock Endo"
+		],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Animatronic",
+		"unitNames": [
+			"Freddy Fazbear",
+			"Bonnie the Rabbit",
+			"Chica the Chicken",
+			"Foxy the Pirate",
+			"Toy Freddy",
+			"Toy Bonnie",
+			"Toy Chica",
+			"Mangle",
+			"Balloon Boy",
+			"JJ",
+			"The Puppet",
+			"Happy Frog",
+			"Mr. Hippo",
+			"Pigpatch",
+			"Orville Elephant",
+			"Nedd Bear",
+			"Mystic Hippo",
+			"Endo-01",
+			"Endo-02"
+		],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Springlock Animatronic",
+		"unitNames": [
+			"Fredbear",
+			"Spring Bonnie",
+			"Prototype Spring Bonnie",
+			"Blue Suit",
+			"Yellow Rabbit",
+			"Rosie Porkchop",
+			"Springtrap Cosplay",
+			"Ella",
+			"Pirate Captain",
+			"Monty",
+			"Bub",
+			"Funtime Suit"
+		],
+		"uniques": [
+		]
+	},
+	{
+		"name": "OG",
+		"unitNames": [
+			"Carl Johnson",
+			"Big Smoke",
+			"Ryder",
+			"Brian Johnson",
+			"Big Bear",
+			"Big Devil",
+			"Little Devil",
+			"Tony",
+			"LB",
+			"Scarf Face"
+		],
+		"uniques": [
+		]
+	},
+	{
+		"name": "Villain",
+		"unitNames": [
+			"Robbie Rotten"
+		],
+		"uniques": [
+		]
+	}
+]

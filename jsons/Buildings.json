@@ -8,6 +8,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"requiredBuilding": "Armory",
 		"uniques": [
+			"Comment [+1 Engineer slots]"
 			"New [Military] units start with [20] XP [in this city]", 
 			"Destroyed when the city is captured"
 		],
@@ -27,5 +28,484 @@
 			"[+1 Food, +1 Culture] from [Marsh] tiles [in this city]"
 		],
 		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Animation Studio",
+		"replaces": "Opera House",
+		"uniqueTo": "House of Mouse",
+		"culture": 4,
+		"faith": 2,
+		"gold": 2,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Amphitheater",
+		"requiredTech": "Acoustics",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "NTV",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "Norsefire UK",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": [
+			"Destroyed when the city is captured",
+			"[-5]% Unhappiness from [Population] [in this city]"
+		]
+	},
+	{
+		"name": "The Nose",
+		"replaces": "Police Station",
+		"uniqueTo": "Norsefire UK",
+		"cost": 300,
+		"hurryCostModifier": 10,
+		"uniques": [
+			"[+1 Happiness] [in capital]"
+			"Only available <when espionage is enabled>", 
+			"[-25]% enemy spy effectiveness [in this city]"
+		],
+		"requiredBuilding": "Constabulary",
+		"requiredTech": "Electricity"
+	},
+	{
+		"name": "Arthurian Court",
+		"replaces": "Castle",
+		"uniqueTo": "Arthurian Britons",
+		"specialistSlots": {"Artist": 1},
+		"greatPersonPoints": {"Great Artist": 2},
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry",
+		"uniques": [
+			"Comment [+1 Artist slots]",
+			"Comment [+1 [Great Artist] points]",
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Waluigi Stadium",
+		"replaces": "Stadium",
+		"uniqueTo": "Waluigi's Island",
+		"happiness": 3,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+		"uniques": [
+			"[+2 Culture, +2 Happiness] <when above [0] [Oil]>"
+		],
+	},
+	{
+		"name": "Waluigi Arcade",
+		"replaces": "Stock Exchange",
+		"uniqueTo": "Waluigi's Island",
+		"gold": 5,
+		"percentStatBonus": {"gold": 33},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Electricity"
+		"uniques": [
+			"Destroyed when the city is captured"
+			"Gain a free [Wa-ha-ha] [in this city] <hidden from users>",
+			"Comment [-5 [Gold] in this city when captured by non-[Waluigi's Island] Civilizations]"
+		],
+	},
+	{
+		"name": "Wa-ha-ha",
+		"uniques": [
+			"Unsellable",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia",
+			"[-5 Gold] [in this city] <for [non-[Waluigi's Island]] Civilizations>"
+		],
+	},
+	{
+		"name": "Chum Bucket",
+		"replaces": "Hospital",
+		"uniqueTo": "Chum Bucket",
+		"food": 6,
+		"production": 4,
+		"requiredBuilding": "Aqueduct",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology"
+	},
+	{
+		"name": "Krusty Krab",
+		"replaces": "Stock Exchange",
+		"uniqueTo": "Krusty Krab",
+		"food": 4,
+		"gold": 6,
+		"percentStatBonus": {"gold": 33},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Electricity",
+		"uniques": [
+		"[+100]% Gold given to enemy if city is captured <in this city>"
+		],
+	},
+	{
+		"name": "Dreamhouse",
+		"replaces": "Broadcast Tower",
+		"uniqueTo": "Barbie Land",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": [
+			"[+1 Happiness] per [5] social policies adopted <in this city>"
+			"Destroyed when the city is captured"
+		]
+	},
+	{
+		"name": "Wayne Enterprises",
+		"replaces": "Stock Exchange",
+		"uniqueTo": "Gotham City",
+		"gold": 3,
+		"percentStatBonus": {"gold": 33},
+		"specialistSlots": {"Merchant": 2, "Scientist": 3},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Electricity"
+        "uniques": [
+			"Comment [+3 Scientist slots]"
+		]
+	},
+    {
+        "name": "The Batcave",
+		"replaces": "National Intelligence Agency",
+		"uniqueTo": "Gotham City",
+        "cost": 120,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+			"Only available <when espionage is enabled>",
+            "New spies start with [1] level(s)",
+            "Promotes all spies [1] time(s)",
+            "Gain an extra spy", // Order is significant here
+			"[-15]% enemy spy effectiveness [in this city]",
+			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+			"[-50]% Unhappiness from [Population] [in this city]"
+		],
+        "requiredTech": "Radio"
+    },
+	/*
+	{
+		"name": "The Citadel",
+		"uniqueTo": "The Combine",
+		"replaces": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 5,
+		"cityHealth": 5,
+		"cost": 1,
+		"uniques": [
+			"Indicates the capital city",
+		]
+	},
+	{
+		"name": "Blood Shrine",
+		"uniqueTo": "R'lyeh",
+		"replaces": "Shrine",
+		"faith": 1,
+		"cost": 40,
+		"maintenance": 1,
+		"requiredTech": "Pottery",
+		"uniques": [
+			"[+1 Food] from every [Coast]",
+			"[+1 Food] from every [Ocean]",
+			"Only available <when religion is enabled>",
+			"[+1 Faith] per [4] population [in this city]"
+		]
+	},
+	*/
+	{
+		"name": "The Last Stand",
+		"uniqueTo": "The Wilderness",
+		"replaces": "Military Base",
+		"cityStrength": 20,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Arsenal",
+		"requiredTech": "Replaceable Parts",
+		"uniques": [
+			"Destroyed when the city is captured"
+		]
+	},
+	/*
+	{
+		"name": "Duff Brewery",
+		"uniqueTo": "Springfield",
+		"replaces": "Colosseum",
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Springfield Nuclear Plant",
+		"uniqueTo": "Springfield",
+		"replaces": "Nuclear Plant",
+		"production": 5,
+		"percentStatBonus": {"production": 15},
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredResource": "Uranium",
+		"requiredTech": "Nuclear Fission",
+		"uniques": ["Only available <in cities without a [Solar Plant]>"]
+	},
+	*/
+	{
+		"name": "Robbie Rotten's Lair",
+		"uniqueTo": "LazyTown",
+		"replaces": "Palace",
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Villain": 3},
+		"production": 4,
+		"science": 4,
+		"gold": 4,
+		"culture": 2,
+		"cityStrength": 5,
+		"cost": 0,
+		"uniques": [
+			"Indicates the capital city"
+		]
+	},
+	{
+		"name": "Capsule",
+		"replaces": "Circus",
+		"uniqueTo": "Robotnik Empire",
+		"requiredNearbyImprovedResources": ["Deer","Sheep","Ivory","Horses"],
+		"happiness": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trapping"
+		"uniques": [
+			"[+1 Science] from [Deer] tiles [in this city]",
+			"[+1 Science] from [Ivory] tiles [in this city]",
+			"[+1 Science] from [Sheep] tiles [in this city]",
+			"[+1 Science] from [Horses] tiles [in this city]"
+			"[+100]% Gold given to enemy if city is captured <in this city>"
+		]
+	},
+	{
+		"name": "Dedede Arena",
+		"replaces": "Circus Maximus",
+		"uniqueTo": "Dream Land",
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"isNationalWonder": true,
+		"requiredTech": "Horseback Riding"
+		"uniques": [
+			"[+20]% Production when constructing [Military] units [in this city]",
+			"All newly-trained [Waddle Dee] units [in this city] receive the [Arena Dee] promotion",
+			"Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"
+		],
+	},
+	{
+		"name": "Planet Saints",
+		"replaces": "Stock Exchange",
+		"uniqueTo": "3rd Street Saints",
+		"gold": 3,
+		"percentStatBonus": {"gold": 33},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredBuilding": "Bank",
+		"requiredTech": "Electricity"
+		"uniques": [
+				"All newly-trained [non-[Air]] units [in this city] receive the [My Armor] promotion"
+		],
+	},
+	{
+		"name": "Clique Hideout",
+		"replaces": "Barracks",
+		"uniqueTo": "Bullworth",
+		"greatPersonPoints": {"Great General": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": [
+			"Comment [+1 [Great General] point per turn]",
+			"New [Military] units start with [15] XP [in this city]", 
+			"Destroyed when the city is captured"
+		],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Camp Ledger",
+		"replaces": "Bank",
+		"uniqueTo": "Van der Linde Gang",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+		"uniques": [
+			"[Gold] cost of purchasing [all] buildings [-20]% <in this city>"
+		],
+	},
+	{
+		"name": "Eagleland Hospital",
+		"replaces": "Hospital",
+		"uniqueTo": "Eagleland",
+		"food": 5,
+		"requiredBuilding": "Aqueduct",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredTech": "Biology"
+		"uniques": [
+			"[+50] HP when healing <for [Land] units> <in [City center] tiles> <in this city>"
+		],
+	},
+	{
+		"name": "Anti Giygas Company",
+		"uniqueTo": "Eagleland",
+		"cityStrength": 5,
+		"cityHealth": 30,
+		"uniques": [
+			"Unbuildable",
+			"Cannot be purchased",
+			"Will not be displayed in Civilopedia"
+		],
+	},
+    {
+        "name": "ONI",
+		"replaces": "National Intelligence Agency",
+		"uniqueTo": "United Nations Space Command",
+        "cost": 120,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": [
+			"[+10]% [Science] [in all cities]",
+			"[+25]% Production when constructing [Military] units [in this city]"
+			"Only available <when espionage is enabled>",
+            "New spies start with [1] level(s)",
+            "Promotes all spies [1] time(s)",
+            "Gain an extra spy", // Order is significant here
+			"[-15]% enemy spy effectiveness [in this city]",
+			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"],
+        "requiredTech": "Radio"
+    },
+	/*
+	{
+		"name": "Hamburger Patch",
+		"replaces": "Garden",
+		"uniqueTo": "McDonaldland",
+		"uniques": [
+			"[+15]% [Food] [in this city]"
+			"[+25]% Great Person generation [in this city]",
+			"Must be next to [Fresh water]"
+		],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "McDonald's",
+		"replaces": "Stadium",
+		"uniqueTo": "McDonaldland",
+		"food": 3,
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+		"uniques": [
+			"Provides [3] [Happy Meal]"
+		],
+	},
+	{
+		"name": "Our Sky",
+		"uniques": [
+			"Unsellable",
+			"Unbuildable",
+			"Will not be displayed in Civilopedia",
+			"Can carry [1] extra [Air] units <in this city>"
+		],
+	},
+	*/
+    {
+        "name": "Border Checkpoint",
+		"replaces": "Police Station",
+		"uniqueTo": "Arstotzka",
+		"gold": 3,
+        "cost": 300,
+        "hurryCostModifier": 10,
+        "requiredBuilding": "Constabulary",
+        "requiredTech": "Electricity"
+        "uniques": [
+			"Only available <when espionage is enabled>",
+			"[-33]% enemy spy effectiveness [in this city]"
+		],
+    },
+	/*
+    {
+        "name": "Immigration Office",
+		"replaces": "Constabulary",
+		"uniqueTo": "Tropico",
+        "cost": 160,
+		"culture": 1,
+        "maintenance": 1,
+        "hurryCostModifier": 10,
+        "requiredTech": "Banking"
+        "uniques": [
+			"Unsellable",
+			"[+2] population [in this city]",
+			"[+1 Culture] <after discovering [Flight]>",
+			"[-25]% enemy spy effectiveness [in this city]"
+		],
+    },
+	*/
+	{
+		"name": "Microgame Producer",
+		"replaces": "Stadium",
+		"uniqueTo": "WarioWare, Inc.",
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
+		"uniques": [
+			"[+2 Gold] from all [Culture] buildings <in this city>"
+		],
+	},
+	{
+		"name": "Octan",
+		"replaces": "Factory",
+		"uniqueTo": "LEGO City",
+		"cost": 360,
+		"production": 4,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"requiredBuilding": "Workshop",
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"requiredResource": "Coal",
+		"requiredTech": "Industrialization"
+		"uniques": [
+			"Provides [4] [Oil]",
+			"[+2 Happiness] from all [Stuntz Track] buildings <in this city>"
+		],
+	},
+	{
+		"name": "Stuntz Track",
+		"replaces": "Stadium",
+		"uniqueTo": "LEGO City",
+		"culture": 5,
+		"happiness": 4,
+		"requiredBuilding": "Theatre",
+		"maintenance": 2,
+		"requiredTech": "Refrigeration"
 	},
 ]

@@ -1,3 +1,158 @@
 [
-	
+	{
+		"name": "No Borders",
+		"uniques": [
+			"May enter foreign tiles without open borders"
+		]
+	},
+	{
+		"name": "Triforce Strength Bonus",
+		"uniques": [
+			"[+5] Strength <upon being promoted> <for [5] turns>"
+		]
+	},
+	{
+		"name": "Warp Pipe User",
+		"uniques": [
+			"Comment [May use [Warp Pipe] tiles]",
+			"May Paradrop to [Warp Pipe] tiles up to [100] tiles away <in [Warp Pipe] tiles> <hidden from users>"
+		]
+	},
+	{
+		"name": "Damn Armor",
+		"uniques": [
+			"May capture killed [Armored] units <with [33]% chance>"
+		]
+	},
+	{
+		"name": "Arena Dee",
+		"uniques": [
+			"[+1] Movement",
+			"[+50]% Strength"
+		]
+	},
+	{
+		"name": "My Armor",
+		"uniques": [
+			"May capture killed [Armored] units <with [25]% chance>"
+		]
+	},
+	{
+		"name": "PK Shield",
+		"innerColor": [125, 119, 247],
+		"outerColor": [0, 0, 0],		
+		"uniques": [
+			"Comment [12 turn Cooldown]",
+			"Comment [+20% Strength when defending]",
+            "Comment [+5% Strength bonus for Military units within 1 tiles when defending]"
+			"[This Unit] gains the [PK Shield Active] status for [2] turn(s) <for [0] movement> <for units without [PK Shield Cooldown]> <hidden from users>",
+			"[This Unit] gains the [PK Shield Cooldown] status for [12] turn(s) <upon gaining the [PK Shield Active] status> <hidden from users>", 
+		]
+	},
+	{
+		"name": "PK Shield Active",
+		"innerColor": [125, 119, 247],
+		"outerColor": [0, 0, 0],
+		"uniques": [
+			"[+20]% Strength <when defending>",
+            "[+5]% Strength bonus for [Military] units within [1] tiles <when defending>"
+		],
+	},
+	{
+		"name": "PK Shield Cooldown",
+		"innerColor": [125, 119, 247],
+		"outerColor": [0, 0, 0],
+		"uniques": [
+			"Comment [[PK Shield] is on cooldown.]"
+		]
+	},
+	{
+		"name": "PK Fire",	
+		"innerColor": [248, 32, 48],
+		"outerColor": [0, 0, 0],	
+		"uniques": [
+			"Comment [15 turn Cooldown]", 
+			"Comment [+30% Strength when attacking]",
+			"Comment [-40% Strength when fighting in Water tiles]",
+			"[This Unit] gains the [PK Fire Active] status for [1] turn(s) <for [0] movement> <for units without [PK Fire Cooldown]> <hidden from users>",
+			"[This Unit] gains the [PK Fire Cooldown] status for [15] turn(s) <upon gaining the [PK Fire Active] status> <hidden from users>", 
+		]
+	},
+	{
+		"name": "PK Fire Active",
+		"innerColor": [248, 32, 48],
+		"outerColor": [0, 0, 0],
+		"uniques": [
+			"[+30]% Strength <when attacking>",
+			"[-40]% Strength <when fighting in [Water] tiles>"
+		],
+	},
+	{
+		"name": "PK Fire Cooldown",
+		"innerColor": [248, 32, 48],
+		"outerColor": [0, 0, 0],
+		"uniques": [
+			"Comment [[PK Fire] is on cooldown.]"
+		]
+	},
+	{
+		"name": "PK Freeze",
+		"innerColor": [224, 224, 248],
+		"outerColor": [0, 0, 0],
+		"uniques": [
+			"Comment [10 turn Cooldown]",
+			"Comment [+20% Strength when fighting in [Ice] tiles]",
+			"Comment [+20% Strength when fighting in [Snow] tiles]",
+			"Comment [+20% Strength when fighting in [Tundra] tiles]"
+			"[This Unit] gains the [PK Freeze Active] status for [1] turn(s) <for [0] movement> <for units without [PK Freeze Cooldown]> <hidden from users>",
+			"[This Unit] gains the [PK Freeze Cooldown] status for [10] turn(s) <upon gaining the [PK Freeze Active] status> <hidden from users>", 
+		]
+	},
+	{
+		"name": "PK Freeze Active",
+		"innerColor": [224, 224, 248],
+		"outerColor": [0, 0, 0],
+		"uniques": [
+			"[+20]% Strength <when fighting in [Ice] tiles>",
+			"[+20]% Strength <when fighting in [Snow] tiles>",
+			"[+20]% Strength <when fighting in [Tundra] tiles>"
+		],
+	},
+	{
+		"name": "PK Freeze Cooldown",
+		"innerColor": [224, 224, 248],
+		"outerColor": [0, 0, 0],
+		"uniques": [
+			"Comment [[PK Freeze] is on cooldown.]"
+		]
+	},
+	{
+		"name": "PK Thunder",
+		"innerColor": [248, 248, 128],
+		"outerColor": [0, 0, 0],
+		"uniques": [
+			"Comment [10 turn Cooldown]",
+			"Comment [+20% Strength when fighting in [Hill] tiles]",
+			"Comment [+20% Strength when fighting in [Water] tiles]" 
+			"[This Unit] gains the [PK Thunder Active] status for [1] turn(s) <for [0] movement> <for units without [PK Thunder Cooldown]> <hidden from users>",
+			"[This Unit] gains the [PK Thunder Cooldown] status for [10] turn(s) <upon gaining the [PK Thunder Active] status> <hidden from users>", 
+		]
+	},
+	{
+		"name": "PK Thunder Active",
+		"innerColor": [248, 248, 128],
+		"outerColor": [0, 0, 0],
+		"uniques": [
+			"[+20]% Strength <when fighting in [Hill] tiles>",
+			"[+20]% Strength <when fighting in [Water] tiles>"
+		],
+	},
+	{
+		"name": "PK Thunder Cooldown",
+		"innerColor": [248, 248, 128],
+		"outerColor": [0, 0, 0],
+		"uniques": [
+			"Comment [[PK Thunder] is on cooldown.]"
+		]
+	},
 ]
