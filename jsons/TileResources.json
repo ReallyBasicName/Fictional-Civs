@@ -1,3 +1,41 @@
 [
 	
+	{
+		"name": "T-Virus",
+		"resourceType": "Strategic",
+		"science": 1,
+		"uniques": [
+			"Cannot be traded",
+			"Excluded from map editor",
+			"Not shown on world screen <for [non-[Umbrella Corporation]] Civilizations>"
+			],
+	},
+	{
+		"name": "Dream Land Burger",
+		"resourceType": "Luxury",
+		"food": 1,
+		"uniques": [
+			],
+	},
+	{
+		"name": "Dream Land Cherries",
+		"resourceType": "Luxury",
+		"food": 1,
+		"uniques": [
+			],
+	},
+	{
+		"name": "Dream Land Shortcake",
+		"resourceType": "Luxury",
+		"food": 1,
+		"uniques": [
+			],
+	},
+	{
+		"name": "Happy Meal",
+		"resourceType": "Luxury",
+		"food": 1,
+		"uniques": [
+			],
+	},
 ]

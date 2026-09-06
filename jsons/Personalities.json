@@ -1,0 +1,1569 @@
+[
+	/*
+		Here is a template to show what values should be filled in. 
+		Use the description at http://civdata.com/, and adjust the numbers accordingly.
+		Even then, its up to personal interpretation.
+		To generate lines with multiple parameters I used the function: (FirstParam + (SecondParam - 5) / 2)
+		
+	{
+		"name": "Template",
+		// Stats focused personalities
+		"culture": Culture,
+		"faith": Religion,
+		"food": Growth,
+		"gold": Gold,
+		"happiness": Happiness,
+		"production": Production,
+		"science": Science,
+		// Behavour focused personalities
+		"military": Military Training,
+		"aggressive": Offensive or (10 - defensive) which ever is higher,
+		"declareWar": War,
+		"commerce": Gold + Chattiness,
+		"diplomacy": Diplomatic Balance + Friendly,
+		"loyal": Loyalty + Defense,
+		"expansion": Expansion,
+		"denounceWillingness": Denouncing
+
+		"priorities": {
+			"Tradition": Culture + Wonder,
+			"Liberty": Expansion + TileImprovement,
+			"Honor": Boldness + War,
+			"Commerce": Gold + Chatiness,
+			"Patronage": CityStateCompetitiveness + CSFriendly,
+			"Piety": Faith + CS Friendly,
+			"Rationalism": Science + Spaceship,
+			"Freedom": Hapiness + Growth,
+			"Autocracy": Boldness + Military training,
+			"Order": Defensive + Production
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	*/
+	{
+		"name": "Adam Susan",
+		// Stats focused personalities
+		"culture": 6,
+		"faith": 10,
+		"food": 5,
+		"gold": 6,
+		"happiness": 5,
+		"production": 7,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 9,
+		"declareWar": 8,
+		"commerce": 5,
+		"diplomacy": 2,
+		"loyal": 1,
+		"expansion": 9,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 2,
+			"Honor": 5,
+			"Commerce": 5,
+			"Patronage": 0,
+			"Piety": 9,
+			"Rationalism": 5,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Andrew Ryan",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 0,
+		"food": 5,
+		"gold": 7,
+		"happiness": 6,
+		"production": 8,
+		"science": 9,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 1,
+		"loyal": 1,
+		"expansion": 5,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 0,
+			"Honor": 1,
+			"Commerce": 5,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 10,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Arthur Pendragon",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 9,
+		"food": 6,
+		"gold": 6,
+		"happiness": 7,
+		"production": 5,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 5,
+		"declareWar": 7,
+		"commerce": 7,
+		"diplomacy": 9,
+		"loyal": 9,
+		"expansion": 6,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 5,
+			"Honor": 8,
+			"Commerce": 5,
+			"Patronage": 7,
+			"Piety": 8,
+			"Rationalism": 5,
+			"Freedom": 9,
+			"Autocracy": 4,
+			"Order": 3
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Barbie",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 5,
+		"food": 7,
+		"gold": 7,
+		"happiness": 8,
+		"production": 5,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 4,
+		"aggressive": 0,
+		"declareWar": 0,
+		"commerce": 9,
+		"diplomacy": 9,
+		"loyal": 8,
+		"expansion": 5,
+		"denounceWillingness": 3
+
+		"priorities": {
+			"Tradition": 9,
+			"Liberty": 6,
+			"Honor": 0,
+			"Commerce": 7,
+			"Patronage": 7,
+			"Piety": 1,
+			"Rationalism": 5,
+			"Freedom": 9,
+			"Autocracy": 0,
+			"Order": 1
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Batman",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 8,
+		"food": 6,
+		"gold": 8,
+		"happiness": 7,
+		"production": 7,
+		"science": 9,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 4,
+		"declareWar": 6,
+		"commerce": 7,
+		"diplomacy": 8,
+		"loyal": 9,
+		"expansion": 6,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 6,
+			"Liberty": 6,
+			"Honor": 6,
+			"Commerce": 7,
+			"Patronage": 8,
+			"Piety": 2,
+			"Rationalism": 9,
+			"Freedom": 9,
+			"Autocracy": 3,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Blaze",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 5,
+		"food": 7,
+		"gold": 5,
+		"happiness": 8,
+		"production": 7,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 6,
+		"aggressive": 0,
+		"declareWar": 0,
+		"commerce": 7,
+		"diplomacy": 9,
+		"loyal": 9,
+		"expansion": 5,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 1,
+			"Honor": 1,
+			"Commerce": 5,
+			"Patronage": 2,
+			"Piety": 1,
+			"Rationalism": 7,
+			"Freedom": 9,
+			"Autocracy": 1,
+			"Order": 1
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Bowser",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 5,
+		"food": 6,
+		"gold": 5,
+		"happiness": 6,
+		"production": 8,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 9,
+		"declareWar": 9,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 8,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 5,
+			"Liberty": 1,
+			"Honor": 9,
+			"Commerce": 6,
+			"Patronage": 0,
+			"Piety": 5,
+			"Rationalism": 7,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Crazy Mita",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 0,
+		"food": 5,
+		"gold": 7,
+		"happiness": 5,
+		"production": 6,
+		"science": 8,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 9,
+		"declareWar": 9,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 0,
+		"expansion": 7,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 3,
+			"Honor": 3,
+			"Commerce": 5,
+			"Patronage": 3,
+			"Piety": 0,
+			"Rationalism": 8,
+			"Freedom": 0,
+			"Autocracy": 8,
+			"Order": 2
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Dedede",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 5,
+		"food": 9,
+		"gold": 6,
+		"happiness": 8,
+		"production": 5,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 7,
+		"declareWar": 6,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 7,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 9,
+			"Liberty": 1,
+			"Honor": 7,
+			"Commerce": 5,
+			"Patronage": 4,
+			"Piety": 1,
+			"Rationalism": 5,
+			"Freedom": 1,
+			"Autocracy": 8,
+			"Order": 1
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Doctor Eggman",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 3,
+		"food": 6,
+		"gold": 7,
+		"happiness": 5,
+		"production": 9,
+		"science": 10,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 10,
+		"declareWar": 10,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 0,
+		"expansion": 10,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 2,
+			"Liberty": 3,
+			"Honor": 7,
+			"Commerce": 5,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 10,
+			"Freedom": 0,
+			"Autocracy": 8,
+			"Order": 5
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Dr. Robotnik",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 3,
+		"food": 6,
+		"gold": 7,
+		"happiness": 5,
+		"production": 11,
+		"science": 11,
+		// Behavour focused personalities
+		"military": 11,
+		"aggressive": 11,
+		"declareWar": 10,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 0,
+		"expansion": 10,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 2,
+			"Liberty": 3,
+			"Honor": 9,
+			"Commerce": 5,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 10,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Dutch van der Linde",
+		// Stats focused personalities
+		"culture": 6,
+		"faith": 5,
+		"food": 5,
+		"gold": 9,
+		"happiness": 7,
+		"production": 6,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 9,
+		"declareWar": 7,
+		"commerce": 8,
+		"diplomacy": 5,
+		"loyal": 0,
+		"expansion": 7,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 2,
+			"Honor": 9,
+			"Commerce": 7,
+			"Patronage": 2,
+			"Piety": 0,
+			"Rationalism": 5,
+			"Freedom": 3,
+			"Autocracy": 7,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "El Presidente",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 6,
+		"food": 5,
+		"gold": 9,
+		"happiness": 7,
+		"production": 8,
+		"science": 7,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 6,
+		"declareWar": 7,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 5,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 9,
+			"Liberty": 0,
+			"Honor": 9,
+			"Commerce": 5,
+			"Patronage": 7,
+			"Piety": 0,
+			"Rationalism": 6,
+			"Freedom": 1,
+			"Autocracy": 10,
+			"Order": 4
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Gary Smith",
+		// Stats focused personalities
+		"culture": 6,
+		"faith": 4,
+		"food": 5,
+		"gold": 8,
+		"happiness": 7,
+		"production": 5,
+		"science": 4,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 9,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 4,
+		"loyal": 0,
+		"expansion": 5,
+		"denounceWillingness": 9
+
+		"priorities": {
+			"Tradition": 2,
+			"Liberty": 1,
+			"Honor": 8,
+			"Commerce": 5,
+			"Patronage": 1,
+			"Piety": 0,
+			"Rationalism": 8,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 1
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Glorious Leader",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 3,
+		"food": 5,
+		"gold": 4,
+		"happiness": 5,
+		"production": 8,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 6,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 4,
+		"loyal": 5,
+		"expansion": 5,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 1,
+			"Honor": 3,
+			"Commerce": 2,
+			"Patronage": 1,
+			"Piety": 0,
+			"Rationalism": 8,
+			"Freedom": 0,
+			"Autocracy": 1,
+			"Order": 9
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			"[+75]% weight to [Constabulary] for AI decisions",
+			"[+75]% weight to [Border Checkpoint] for AI decisions",
+			"[+100]% weight to [Border Guard] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Joker",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 2,
+		"food": 6,
+		"gold": 8,
+		"happiness": 9,
+		"production": 5,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 7,
+		"aggressive": 9,
+		"declareWar": 6,
+		"commerce": 6,
+		"diplomacy": 1,
+		"loyal": 5,
+		"expansion": 7,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 0,
+			"Honor": 7,
+			"Commerce": 5,
+			"Patronage": 5,
+			"Piety": 0,
+			"Rationalism": 3,
+			"Freedom": 0,
+			"Autocracy": 8,
+			"Order": 0
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Lex Luthor",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 2,
+		"food": 5,
+		"gold": 9,
+		"happiness": 8,
+		"production": 8,
+		"science": 9,
+		// Behavour focused personalities
+		"military": 7,
+		"aggressive": 8,
+		"declareWar": 8,
+		"commerce": 8,
+		"diplomacy": 7,
+		"loyal": -5,
+		"expansion": 9,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 9,
+			"Liberty": 5,
+			"Honor": 0,
+			"Commerce": 8,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 10,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Mr. Krabs",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 5,
+		"food": 9,
+		"gold": 9,
+		"happiness": 6,
+		"production": 6,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 5,
+		"aggressive": 6,
+		"declareWar": 5,
+		"commerce": 9,
+		"diplomacy": 7,
+		"loyal": 6,
+		"expansion": 5,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 5,
+			"Honor": 4,
+			"Commerce": 9,
+			"Patronage": 6,
+			"Piety": 1,
+			"Rationalism": 5,
+			"Freedom": 8,
+			"Autocracy": 6,
+			"Order": 1
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Nassar Embry",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 3,
+		"food": 5,
+		"gold": 6,
+		"happiness": 5,
+		"production": 9,
+		"science": 7,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 7,
+		"declareWar": 8,
+		"commerce": 7,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 9,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 1,
+			"Liberty": 6,
+			"Honor": 9,
+			"Commerce": 3,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 8,
+			"Freedom": 0,
+			"Autocracy": 0,
+			"Order": 10
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Ness",
+		// Stats focused personalities
+		"culture": 6,
+		"faith": 9,
+		"food": 5,
+		"gold": 5,
+		"happiness": 8,
+		"production": 7,
+		"science": 7,
+		// Behavour focused personalities
+		"military": 5,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 8,
+		"diplomacy": 9,
+		"loyal": 9,
+		"expansion": 5,
+		"denounceWillingness": 2
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 5,
+			"Honor": 1,
+			"Commerce": 6,
+			"Patronage": 6,
+			"Piety": 7,
+			"Rationalism": 4,
+			"Freedom": 10,
+			"Autocracy": 0,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Osmund Saddler",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 10,
+		"food": 6,
+		"gold": 6,
+		"happiness": 5,
+		"production": 7,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 10,
+		"aggressive": 9,
+		"declareWar": 9,
+		"commerce": 5,
+		"diplomacy": 1,
+		"loyal": 0,
+		"expansion": 8,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 1,
+			"Honor": 8,
+			"Commerce": 4,
+			"Patronage": 0,
+			"Piety": 9,
+			"Rationalism": 1,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Oswell E. Spencer",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 3,
+		"food": 5,
+		"gold": 9,
+		"happiness": 5,
+		"production": 7,
+		"science": 9,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 8,
+		"declareWar": 7,
+		"commerce": 7,
+		"diplomacy": 3,
+		"loyal": 0,
+		"expansion": 8,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 1,
+			"Liberty": 2,
+			"Honor": 9,
+			"Commerce": 7,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 10,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Penguin",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 4,
+		"food": 6,
+		"gold": 9,
+		"happiness": 8,
+		"production": 5,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 7,
+		"aggressive": 7,
+		"declareWar": 5,
+		"commerce": 9,
+		"diplomacy": 9,
+		"loyal": 5,
+		"expansion": 5,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 1,
+			"Honor": 1,
+			"Commerce": 9,
+			"Patronage": 5,
+			"Piety": 1,
+			"Rationalism": 6,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Peter Griffin",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 3,
+		"food": 9,
+		"gold": 5,
+		"happiness": 9,
+		"production": 6,
+		"science": 7,
+		// Behavour focused personalities
+		"military": 5,
+		"aggressive": 9,
+		"declareWar": 8,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 8,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 5,
+			"Honor": 8,
+			"Commerce": 5,
+			"Patronage": 7,
+			"Piety": 1,
+			"Rationalism": 9,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Plankton",
+		// Stats focused personalities
+		"culture": 3,
+		"faith": 1,
+		"food": 8,
+		"gold": 9,
+		"happiness": 6,
+		"production": 9,
+		"science": 9,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 9,
+		"declareWar": 9,
+		"commerce": 6,
+		"diplomacy": 0,
+		"loyal": 0,
+		"expansion": 7,
+		"denounceWillingness": 8
+
+		"priorities": {
+			"Tradition": 2,
+			"Liberty": 2,
+			"Honor": 8,
+			"Commerce": 7,
+			"Patronage": 0,
+			"Piety": 1,
+			"Rationalism": 9,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 2
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Playa",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 7,
+		"food": 5,
+		"gold": 9,
+		"happiness": 9,
+		"production": 7,
+		"science": 8,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 9,
+		"declareWar": 7,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 1,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 6,
+			"Liberty": 1,
+			"Honor": 9,
+			"Commerce": 9,
+			"Patronage": 5,
+			"Piety": 4,
+			"Rationalism": 10,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "President",
+		// Stats focused personalities
+		"culture": 6,
+		"faith": 5,
+		"food": 5,
+		"gold": 7,
+		"happiness": 8,
+		"production": 9,
+		"science": 8,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 8,
+		"diplomacy": 8,
+		"loyal": 9,
+		"expansion": 5,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 5,
+			"Liberty": 9,
+			"Honor": 1,
+			"Commerce": 7,
+			"Patronage": 9,
+			"Piety": 5,
+			"Rationalism": 8,
+			"Freedom": 10,
+			"Autocracy": 1,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Princess Peach",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 5,
+		"food": 9,
+		"gold": 7,
+		"happiness": 8,
+		"production": 5,
+		"science": 4,
+		// Behavour focused personalities
+		"military": 5,
+		"aggressive": 2,
+		"declareWar": -5,
+		"commerce": 8,
+		"diplomacy": 9,
+		"loyal": 8,
+		"expansion": 5,
+		"denounceWillingness": 2
+
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 0,
+			"Honor": 0,
+			"Commerce": 7,
+			"Patronage": 8,
+			"Piety": 0,
+			"Rationalism": 2,
+			"Freedom": 7,
+			"Autocracy": 1,
+			"Order": 1
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Riddler",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 4,
+		"food": 5,
+		"gold": 5,
+		"happiness": 7,
+		"production": 6,
+		"science": 9,
+		// Behavour focused personalities
+		"military": 5,
+		"aggressive": 9,
+		"declareWar": 5,
+		"commerce": 8,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 7,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 0,
+			"Honor": 3,
+			"Commerce": 5,
+			"Patronage": 5,
+			"Piety": 0,
+			"Rationalism": 8,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Robbie Rotten",
+		// Stats focused personalities
+		"culture": 6,
+		"faith": 5,
+		"food": 9,
+		"gold": 9,
+		"happiness": 9,
+		"production": 6,
+		"science": 4,
+		// Behavour focused personalities
+		"military": 4,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 6,
+		"diplomacy": 6,
+		"loyal": 0,
+		"expansion": 7,
+		"denounceWillingness": 9
+
+		"priorities": {
+			"Tradition": 9,
+			"Liberty": 5,
+			"Honor": 0,
+			"Commerce": 6,
+			"Patronage": 5,
+			"Piety": 1,
+			"Rationalism": 8,
+			"Freedom": 4,
+			"Autocracy": 9,
+			"Order": 2
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Shrek",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 5,
+		"food": 7,
+		"gold": 6,
+		"happiness": 7,
+		"production": 5,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 6,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 7,
+		"loyal": 9,
+		"expansion": 7,
+		"denounceWillingness": 8
+
+		"priorities": {
+			"Tradition": 9,
+			"Liberty": 0,
+			"Honor": 3,
+			"Commerce": 5,
+			"Patronage": 2,
+			"Piety": 0,
+			"Rationalism": 3,
+			"Freedom": 10,
+			"Autocracy": 0,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Smooth Cheeks",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 5,
+		"food": 9,
+		"gold": 7,
+		"happiness": 9,
+		"production": 8,
+		"science": 3,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 7,
+		"declareWar": 5,
+		"commerce": 5,
+		"diplomacy": 2,
+		"loyal": 5,
+		"expansion": 8,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 10,
+			"Liberty": 2,
+			"Honor": 1,
+			"Commerce": 5,
+			"Patronage": 1,
+			"Piety": 1,
+			"Rationalism": 3,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Solomon Fleck",
+		// Stats focused personalities
+		"culture": 7,
+		"faith": 3,
+		"food": 7,
+		"gold": 7,
+		"happiness": 7,
+		"production": 9,
+		"science": 7,
+		// Behavour focused personalities
+		"military": 5,
+		"aggressive": 5,
+		"declareWar": 5,
+		"commerce": 7,
+		"diplomacy": 9,
+		"loyal": 5,
+		"expansion": 5,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 8,
+			"Honor": 2,
+			"Commerce": 7,
+			"Patronage": 6,
+			"Piety": 0,
+			"Rationalism": 6,
+			"Freedom": 10,
+			"Autocracy": 0,
+			"Order": 0
+		}
+	},
+	{
+		"name": "Sweet Johnson",
+		// Stats focused personalities
+		"culture": 8,
+		"faith": 5,
+		"food": 7,
+		"gold": 8,
+		"happiness": 9,
+		"production": 7,
+		"science": 6,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 7,
+		"declareWar": 6,
+		"commerce": 9,
+		"diplomacy": 4,
+		"loyal": 8,
+		"expansion": 5,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 9,
+			"Liberty": 3,
+			"Honor": 6,
+			"Commerce": 8,
+			"Patronage": 7,
+			"Piety": 0,
+			"Rationalism": 5,
+			"Freedom": 5,
+			"Autocracy": 5,
+			"Order": 5
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Terrence Hood",
+		// Stats focused personalities
+		"culture": 6,
+		"faith": 5,
+		"food": 5,
+		"gold": 7,
+		"happiness": 6,
+		"production": 8,
+		"science": 9,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 8,
+		"declareWar": 7,
+		"commerce": 8,
+		"diplomacy": 6,
+		"loyal": 8,
+		"expansion": 9,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 3,
+			"Liberty": 6,
+			"Honor": 9,
+			"Commerce": 7,
+			"Patronage": 6,
+			"Piety": 1,
+			"Rationalism": 9,
+			"Freedom": 1,
+			"Autocracy": 9,
+			"Order": 0
+		},
+		"uniques": [
+			"[+75]% weight to [ODST] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The Collector",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 3,
+		"food": 5,
+		"gold": 5,
+		"happiness": 6,
+		"production": 8,
+		"science": 8,
+		// Behavour focused personalities
+		"military": 9,
+		"aggressive": 9,
+		"declareWar": 9,
+		"commerce": 2,
+		"diplomacy": 1,
+		"loyal": 8,
+		"expansion": 5,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 3,
+			"Liberty": 2,
+			"Honor": 9,
+			"Commerce": 5,
+			"Patronage": 0,
+			"Piety": 2,
+			"Rationalism": 9,
+			"Freedom": 0,
+			"Autocracy": 9,
+			"Order": 9
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "The Mouse",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 8,
+		"food": 5,
+		"gold": 9,
+		"happiness": 4,
+		"production": 7,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 7,
+		"aggressive": 9,
+		"declareWar": 8,
+		"commerce": 8,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 8,
+		"denounceWillingness": 7
+
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 1,
+			"Honor": 0,
+			"Commerce": 10,
+			"Patronage": 5,
+			"Piety": 5,
+			"Rationalism": 7,
+			"Freedom": 0,
+			"Autocracy": 10,
+			"Order": 0
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Two-Face",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 5,
+		"food": 5,
+		"gold": 8,
+		"happiness": 9,
+		"production": 7,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 8,
+		"declareWar": 7,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 5,
+		"denounceWillingness": 6
+
+		"priorities": {
+			"Tradition": 7,
+			"Liberty": 0,
+			"Honor": 7,
+			"Commerce": 5,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 5,
+			"Freedom": 1,
+			"Autocracy": 9,
+			"Order": 1
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Waluigi",
+		// Stats focused personalities
+		"culture": 5,
+		"faith": 5,
+		"food": 7,
+		"gold": 10,
+		"happiness": 6,
+		"production": 7,
+		"science": 8,
+		// Behavour focused personalities
+		"military": 7,
+		"aggressive": 10,
+		"declareWar": 5,
+		"commerce": 6,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 7,
+		"denounceWillingness": 8
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 5,
+			"Honor": 7,
+			"Commerce": 10,
+			"Patronage": 0,
+			"Piety": 0,
+			"Rationalism": 7,
+			"Freedom": 1,
+			"Autocracy": 8,
+			"Order": 1
+		},
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Wario",
+		// Stats focused personalities
+		"culture": 6,
+		"faith": 3,
+		"food": 8,
+		"gold": 9,
+		"happiness": 7,
+		"production": 6,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 6,
+		"aggressive": 9,
+		"declareWar": 8,
+		"commerce": 5,
+		"diplomacy": 5,
+		"loyal": 5,
+		"expansion": 7,
+		"denounceWillingness": 8
+
+		"priorities": {
+			"Tradition": 2,
+			"Liberty": 1,
+			"Honor": 8,
+			"Commerce": 9,
+			"Patronage": 2,
+			"Piety": 1,
+			"Rationalism": 5,
+			"Freedom": 0,
+			"Autocracy": 9,
+			"Order": 0
+			"Voluntarism": 0,
+		},
+		"uniques": [
+			//"Will not build [baseUnitFilter/buildingFilter]",
+			//"[relativeAmount]% weight to [baseUnitFilter/buildingFilter] for AI decisions"
+		]
+		"civilopediaText": [
+			{"text": ""}
+		]
+	},
+	{
+		"name": "Zelda",
+		// Stats focused personalities
+		"culture": 9,
+		"faith": 9,
+		"food": 6,
+		"gold": 7,
+		"happiness": 6,
+		"production": 5,
+		"science": 5,
+		// Behavour focused personalities
+		"military": 8,
+		"aggressive": 3,
+		"declareWar": 1,
+		"commerce": 8,
+		"diplomacy": 9,
+		"loyal": 8,
+		"expansion": 5,
+		"denounceWillingness": 5
+
+		"priorities": {
+			"Tradition": 8,
+			"Liberty": 3,
+			"Honor": 0,
+			"Commerce": 6,
+			"Patronage": 7,
+			"Piety": 8,
+			"Rationalism": 4,
+			"Freedom": 8,
+			"Autocracy": 5,
+			"Order": 5
+		}
+	}
+]

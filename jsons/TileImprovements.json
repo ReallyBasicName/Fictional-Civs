@@ -1,4 +1,17 @@
 [
-	
+	{
+		"name": "Warp Pipe",
+		"uniqueTo": "Mushroom Kingdom",
+		"turnsToBuild": 10,
+		"techRequired": "Physics",
+		"terrainsCanBeBuiltOn": [
+			"Land"
+		]
+		"uniques": [
+			"Gives a defensive bonus of [25]%",
+			"Comment [[Mushroom Kingdom]'s units can travel to other [Warp Pipe] tiles up to 100 tiles away by standing on this tile]",
+			"Pillaging this improvement yields approximately [+25 Gold]"
+		]
+	},
 ]
 

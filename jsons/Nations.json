@@ -1,10 +1,65 @@
 [
+	//Template
+	/*
+	{
+		"name": "",
+		"leaderName": "",
+		"adjective": [""],
+		"startBias": [""],
+		"preferredVictoryType": "",
+		//"personality": "",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [],
+		"innerColor": [],
+		
+		"uniqueName": "",
+		"uniques": [
+		],
+		"cities": [
+			""
+		]
+		"spyNames": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	*/
     {
         "name": "Eggman Empire",
         "leaderName": "Doctor Eggman",
         "adjective": ["Eggman"],
         "startBias": ["Super-Genius Scientists Don't Need One"],
         "preferredVictoryType": "Domination",
+		"personality": "Doctor Eggman",
 		//"favoredReligion": "",
 		
         "startIntroPart1": "",
@@ -20,6 +75,7 @@
 		"denounced": "I won't forget this!",
 		
         "tradeRequest": "You'll be rewarded handsomely for helping me!",
+		"declaringFriendship": "You're hereby inducted into the Eggman Empire. This does not make us allies.",
 		
 		"outerColor": [184, 13, 17],
 		"innerColor": [0, 0, 0],
@@ -32,34 +88,92 @@
         "cities": [
 			"Eggmanland", "Eggperial City", "Metropolis", "Eggland", "Eggman Empire Fortress", 
 			"Robotropolis", "Robotnikland", "Studiopolis", "X-Zone", "XX", 
-			"Atomic Destroyer", "Titanic Monarch", "Electric Egg", "Egg Fortress", "", 
-			"E.G.G. Station", "Sky Fortress", "Silver Castle", "Sleeping Egg", "Final Egg", 
-			"Gimme Shelter", "Egg Toy Land", "Scrap Brain", "Cosmic Angel", "Crystal Egg", 
-			"Sky Base", "Sky Fortress", "Scrambled Egg", "Metallic Madness", "Mad Gear",
+			"Atomic Destroyer", "Titanic Monarch", "Electric Egg", "Egg Fortress", "E.G.G. Station", 
+			"Sky Fortress", "Silver Castle", "Sleeping Egg", "Final Egg", "Gimme Shelter", 
+			"Egg Toy Land", "Scrap Brain", "Cosmic Angel", "Crystal Egg", "Sky Base", 
+			"Sky Fortress", "Scrambled Egg", "Metallic Madness", "Mad Gear"
         ]
 		"spyNames": [
-		"Sage",
-		"Rouge",
-		"SA-55",
-		"Orbot",
-		"Cubot",
-		"Metal Sonic",
-		"Metal Knuckles",
-		"Metal Tails",
-		"Metal Amy",
-		"Mecha Sonic",
-		"E-10000B",
-		"E-10000G",
-		"E-10000R",
-		"E-100 ZERO",
-		"E-101 Beta",
-		"E-101 Mark II",
-		"E-102 Gamma",
-		"E-103 Delta",
-		"E-104 Epsilon",
-		"E-105 Zeta",
-		"E-121 Phi",
-		"E-123 Omega"
+			"Sage",
+			"SA-55",
+			"Orbot",
+			"Cubot",
+			"Metal Sonic",
+			"Mecha Sonic",
+			"E-10000B",
+			"E-10000G",
+			"E-10000R",
+			"E-100 ZERO",
+			"E-101 Beta",
+			"E-101 Mark II",
+			"E-102 Gamma",
+			"E-103 Delta",
+			"E-104 Epsilon",
+			"E-105 Zeta",
+			"E-121 Phi",
+			"E-123 Omega"
+		]
+    },
+    {
+        "name": "Robotnik Empire",
+        "leaderName": "Dr. Robotnik",
+        "adjective": ["Egg"],
+        "startBias": ["Avoid [Tundra]"],
+        "preferredVictoryType": "Domination",
+		"personality": "Dr. Robotnik",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Mwahahahaha! Soon my master plan will triumph!",
+        "attacked": "My plans are foolproof! You won't succeed!",
+        "defeated": "Noooooo! No! No! NO! This was supposed to be MY victory! Not yours! MINE!",
+        "introduction": "I am Dr. Robotnik, scientist extraordinaire, and soon to be ruler of the world! And you are my future subject, I presume?",
+		
+        "neutralHello": "Welcome to MY empire!",
+        "hateHello": "Away! Before I make mincemeat out of you!",
+		"denounced": "Arrgh! You're not going to get away with this!",
+		
+        "tradeRequest": "Give it here.",
+		"declaringFriendship": "",
+		
+		"outerColor": [234, 229, 213],
+		"innerColor": [109, 15, 4],
+		
+        "uniqueName": "Evil Genius Extraordinaire",
+        "uniques": [
+			"[+1 Production, +1 Science] from [Camp] tiles [in all cities]",
+			"[+1 Production, +1 Science] from [Pasture] tiles [in all cities]",
+			"[+3 Production, +2 Science] from [Manufactory] tiles [in all cities]"
+        ],
+        "cities": [
+			"Scrap Brain Zone", "Metallic Madness", "Oil Ocean Zone", "Metropolis Zone", "Launch Base Zone",
+			"Flying Battery Zone", "Death Egg Zone", "Electric Egg Zone", "Sleeping Egg Zone", "Mecha Green Hill Zone",
+			"Silver Castle Zone", "Panic Puppet Zone", "Gene Gadget Zone", "Labyrinth of the Sky", "Labyrinth of the Sea",
+			"Labyrinth of the Factory", "Labyrinth of the Castle", "Reactive Factory", "Veg-O-Fortress", "Chemical Plant Zone",
+			"Atomic Destroyer Zone", "Botanic Base", "Speed Slider", "Amazing Arena", "Techno Tower",
+			"Marina Madness", "Egg Fortress Zone", "Frozen Base Zone", "Press Factory Zone", "Titanic Monarch Zone",
+			"E.G.G. Station Zone", "Mad Gear Zone", "Death Egg mk.II Zone", "Wing Fortress Zone", "Sky Fortress Zone",
+			"Volcanic Vault", "Icy Isle", "Desert Dodge", "Trap Tower", "Landslide Limbo",
+			"Wild Water Way", "Eggman's Tower", "Mean Bean-Steaming Machine"
+        ]
+		"spyNames": [
+			"Metal Sonic",
+			"Metal Knuckles",
+			"Metal Tails",
+			"Metal Amy",
+			"Metal Trip",
+			"Metal NiGHTS",
+			"Heavy Gunner",
+			"Heavy King",
+			"Heavy Magician",
+			"Heavy Rider",
+			"Heavy Shinobi",
+			"Mecha Sonic Model No.29",
+			"Mecha Sonic",
+			"Mecha Sonic Mark II",
+			"Silver Sonic"
 		]
     },
 	{
@@ -68,6 +182,7 @@
 		"adjective": ["Ogre"],
 		"startBias": ["Marsh"],
 		"preferredVictoryType": "Cultural",
+		"personality": "Shrek",
 		//"favoredReligion": "",
 		
 		"startIntroPart1": "",
@@ -83,6 +198,7 @@
 		"denounced": "I like my privacy anyway.",
 		
 		"tradeRequest": "I need this to get my swamp back.",
+		"declaringFriendship": "",
 		
 		"outerColor": [0, 56, 22],
 		"innerColor": [156, 209, 68],
@@ -107,6 +223,3356 @@
 			"Three Blind Mice",
 			"Three Little Pigs",
 			"Three Good Fairies"
+		]
+	},
+	{
+		"name": "Hyrule",
+		"leaderName": "Zelda",
+		"adjective": ["Hylian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		"personality": "Zelda",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "I regret this necessity, but we have little choice but to declare war.",
+		"attacked": "If you wish to test yourself against Hyrule, then so be it!",
+		"defeated": "Hyrule has fallen into darkness. I hope you use your victory well.",
+		"introduction": "You are well met. I pray that it was an auspicious wind that brought us together.",
+		
+		"neutralHello": "Greetings. I trust that our nations will both benefit from this meeting.",
+		"hateHello": "Let's hear it.",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Commercial intercourse is the lifeblood of civilization, don't you agree?",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [0, 109, 146],
+		"innerColor": [245, 187, 76],
+		
+		"uniqueName": "Triforce",
+		"uniques": [
+			"Comment [+5 Strength for [Sword] units upon being promoted for 5 turns] <Civilopedia link [Unit types/Sword]>",
+			"[Sword] units gain the [Triforce Strength Bonus] promotion <hidden from users>",
+			"All newly-trained [{Military} {Land}] units [in all cities] receive the [Medic] promotion <during a Golden Age>"
+		],
+		"cities": [
+			"Castle Town", "Gerudo Town", "Goron City", "Clock Town", "Kakariko Village", 
+			"Kokiri Village", "Darunia", "New Kasuto", "Old Kasuto", "Mido Town", 
+			"Nabooru Town", "Rauru", "Ruto Town", "Saria", "Hateno Village", 
+			"Lurelin Village", "Rito Village", "Tarrey Town"
+		]
+		"spyNames": [
+			"Link",
+			"Impa",
+			"Rauru",
+			"Saria",
+			"Darunia",
+			"Ruto",
+			"Nabooru",
+			"Midna",
+			"Mipha",
+			"Daruk"
+		]
+	},
+	{
+		"name": "House of Mouse",
+		"leaderName": "The Mouse",
+		"adjective": ["Disney"],
+		"startBias": ["Coast"],
+		"preferredVictoryType":"Domination",
+		"personality": "The Mouse",
+		//"favoredReligion": "Disney",
+
+		"startIntroPart1": "This was once the happiest place in the world, Disney. A magical place of adventure for children and their parents alike. But that was then, and this is now.",
+		"startIntroPart2": "",
+
+		"declaringWar": "You'll never see me go down in history as you won't live to see it.",
+		"attacked": "Oh boy, you'll regret this.",
+		"defeated": "In the end, it was all just a dream. That's all folks.",
+		"introduction": "Hiya folks. Welcome to the happie... eh, you know the thing.",
+
+		"neutralHello": "Hiya pal. Huh, would I call you pal? No I wouldn't, hiya there.",
+		"hateHello": "Go away.",
+		"denounced": "Heh, funny guy you are. Now get outta here.",
+
+		"tradeRequest": "Use your brain to figure out if you want this.",
+		"declaringFriendship": "Hey there. Want to be my friend?",
+
+		"outerColor": [34, 51, 119],
+		"innerColor": [82, 136, 206],
+		
+		"uniqueName": "Hail the Mouse",
+		"uniques": [
+			"[-10]% Unhappiness from [Population] [in annexed cities]",
+			"[+10]% Unhappiness from [Specialists] [in all non-occupied cities]",
+			"[+22]% [Gold] [in capital] <upon declaring war on [Major] Civilizations> <for [6] turns>"
+		],
+		"cities": [
+			"EPCOT", "Treasure Island", "Toon Town", "Pandora", "DinoLand",
+			"Planet Watch", "Main Street", "Adventureland", "Frontierland", "Tomorrowland",
+			"Fantasyland", "Liberty Square", "New Orleans Square", "Critter Country", "Buena Vista Square",
+			"Cars Land", "Pacific Wharf", "Grizzly Peak", "Paradise Gardens Park", "Discoveryland",
+			"Adventure Isle", "Walt Studios Park", "Westernland", "Sunset Boulevard", "Echo Lake",
+			"Animation Courtyard", "Mystic Point", "Toy Story Playland", "Gardens of Imagination"
+		],
+		"spyNames": [
+			"Goofy",
+			"Donald",
+			"Minnie",
+			"Daisy",
+			"Pete",
+			"Oswald",
+			"Clarabelle",
+			"Pluto",
+			"Mortimer",
+			"Ortensia"
+		]
+	},
+	{
+		"name": "Norsefire UK",
+		"leaderName": "Adam Susan",
+		"adjective": ["Norsefire"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Adam Susan",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "Tonight, I will speak directly to these people and make the situation perfectly clear to them...",
+		"introduction": "My name is Adam Susan. I am the leader. Leader of the lost, ruler of the ruins. I am a man, like any other man. I lead the country that I love out of the wilderness of the twentieth century. I believe in survival. In the destiny of the Nordic race. I believe in fascism.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [230, 5, 74],
+		"innerColor": [40, 40, 40],
+		
+		"uniqueName": "England Prevails",
+		"uniques": [
+			"[+1 Culture] from all [Faith] buildings",
+			"[+20]% Spread Religion Strength <in [Your] cities>",
+			"Comment [[+25]% [Production] when constructing [Espionage] buildings [in all cities]]",
+			"[+25]% Production when constructing [Constabulary] buildings [in all cities] <hidden from users>",
+			"[+25]% Production when constructing [Police Station] buildings [in all cities] <hidden from users>",
+			"[+25]% Production when constructing [National Intelligence Agency] buildings [in all cities] <hidden from users>"
+		],
+		"cities": [
+			"London", "Edinburgh", "Manchester", "Birmingham", "Leeds",
+			"Glasgow", "Liverpool", "Belfast", "Southampton", "Newcastle",
+			"Portsmouth", "Nottingham", "Sheffield", "Bristol", "Cardiff", 
+			"Leicester", "Bournemouth", "Stoke-on-Trent", "Coventry", "Sunderland", 
+			"Birkenhead", "Reading, Hull", "Preston", "Newport", 
+			"Swansea", "Southend-on-Sea", "Derby", "Plymouth", "Blackpool", 
+			"Milton Keynes", "Northampton", "Norwich", "Ipswich", "Swindon", 
+			"Oxford", "Dundee", "Cambridge", "York", "Aberdeen"
+		]
+		"spyNames": [
+			"Derek Almond",
+			"Peter Creedy",
+			"Conrad Heyer", 
+			"Brian Etheridge",
+			"Erich Finch",
+			"Roger Dascombe",
+		]
+	},
+	{
+		"name": "Arthurian Britons",
+		"leaderName": "Arthur Pendragon",
+		"adjective": ["Arthurian"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Arthur Pendragon",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+		"introduction": "Hello there, fellow traveller. I am King Arthur of the Britons, I come in good faith.",
+		
+		"neutralHello": "Why hello there. What brings you here today?",
+		"hateHello": "State your purpose here.",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [44, 80, 104],
+		"innerColor": [221, 172, 101],
+		
+		"uniqueName": "Once and Future King",
+		"uniques": [
+			"[Great General] is earned [+20]% faster",
+			"[+15]% Strength <for [{Military} {Land}] units> <during a Golden Age>"
+		],
+		"cities": [
+			"Camelot", "London", "Quimper", "Saint Davids", "Caerllion",
+			"Tintagel", "Carhaix", "Brocéliande", "Stirling", "Carmarthen", 
+			"Penn Rhionydd", "Glastonbury", "Dinas Emrys", "Arthuret", "Celliwig", 
+			"Slaughterbridge", "Camboglanna", "Alnwick", "Corbenic", "Llanuwchllyn", 
+			"Camalet", "Astolat", "Listeneise", "Winchester", "Cadbury", 
+			"Viroconium", "Dore", "Colchester", "Mynydd Baedan", "Drunmelzier", 
+			"Llanvair Discoed"
+		]
+		"spyNames": [
+			"Bedivere",
+			"Catigern",
+			"Elaine",
+			"Gorlois",
+			"Iseult",
+			"Guinevere",
+			"Guiomar",
+			"Lyonesse",
+			"Taliesin",
+			"Yniol",
+		]
+	},
+	{
+		"name": "Mushroom Kingdom",
+		"leaderName": "Princess Peach",
+		"adjective": ["Mushroom"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Princess Peach",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Tee hee! I think a decision's been made.",
+		"attacked": "Oh, how silly! Stop trying to invade me. I'll never give up!",
+		"defeated": "An ordinary girl might give up at a time like this. But I'm a princess, and princesses never surrender!",
+		"introduction": "Hello there, stranger! I'm Peach, princess of the Mushroom Kingdom. No need to bow.",
+		
+		"neutralHello": "Hello there!",
+		"hateHello": "I thought we were friends. Hmph!",
+		"denounced": "Oh dear. Have I done something to make you angry?",
+		
+		"tradeRequest": "You'll trade with me, won't you? It’s in both of our interests!",
+		"declaringFriendship": "Do you think it would be all right...if I became your friend?"
+		
+		"outerColor": [230, 98, 160],
+		"innerColor": [255, 255, 255],
+		
+		"uniqueName": "The Most Famous of All Kingdoms",
+		"uniques": [
+			"[+1 Happiness] from all [Food] buildings",
+			"[+25]% Production when constructing [Happiness] buildings [in all cities]"
+			"[Land] units gain the [Warp Pipe User] promotion <hidden from users>"
+			
+		],
+		"cities": [
+			"Toad Town", "Goomba Village", "Koopa Village", "Dry Dry Outpost", "Gusty Gulch",
+			"Shiver City", "Decalburg", "Hollijolli Village", "Mushroom City"
+		]
+		"spyNames": [
+			"Mario",
+			"Luigi",
+			"Toad",
+			"Toadsworth",
+			"Toadette",
+			"Yoshi",
+			"Birdo",
+			"Toadiko"
+			"Toadbert",
+			"Hint Toad",
+			"Banktoad",
+			"Mailtoad",
+			"Yellow Toad",
+			"Blue Toad",
+			"Geno",
+			"Goombario"
+		]
+	},
+	/*
+	{
+		"name": "Sarasaland",
+		"leaderName": "Princess Daisy",
+		"adjective": ["Sarasalandi"],
+		"startBias": [""],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "Princess Daisy",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [245, 175, 102],
+		"innerColor": [6, 108, 95],
+		
+		"uniqueName": "",
+		"uniques": [
+		],
+		"cities": [
+			"Daisy's Castle", "Daisy Circuit", "Daisy Cruiser", "Daisy Garden", "Daisy Hills",
+			"Chibibo", "Nokobon", "Pakkun", "Gira", "Bunbun",
+			"Gao", "Totomesu", "Honen", "Yurarin Boo", "Mekabon",
+			"Torion", "Yurarin", "Gunion", "Tamao", "Dragonzamasu",
+			"Batadon", "Tokotoko", "Ganchan", "Suu", "Kumo",
+			"Hiyoihoi", "Pionpi", "Pompon", "Nyololin", "Roto-disc",
+			"Chicken", "Roketon", "Chikako", "Biokinto", "Tatanga",
+		]
+		"spyNames": [
+			"Tatanga",
+			"Totomesu",
+			"Dragonzamasu",
+			"Hiyoihoi",
+			"Biokinton",
+			"Luigi",
+			"Pagosu",
+			"Katsini",
+			"Herman",
+			"Margarida"
+		]
+	},
+	*/
+	{
+		"name": "Koopa Troop",
+		"leaderName": "Bowser",
+		"adjective": ["Koopa Troop"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Bowser",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Mwa ha! Did you think I was just going to GIVE you freedom? You're always in my way! This is IT! I'm gonna take you out!",
+		"attacked": "This is the end... for you! Gwahahaha!",
+		"defeated": "Noooo! You've really beaten me this time! I can't stand losing to you! My troops...worthless!",
+		"introduction": "Bow before Bowser, or feel my wrath!",
+		
+		"neutralHello": "Nice of you to show up! You're about to play a game all by your sorry self!!",
+		"hateHello": "Bwa ha ha!",
+		"denounced": "BWAHAHAHA! Not bad! I guess I chose the right guy to be my archenemy.",
+		
+		"tradeRequest": "WAH, HAH, HAH, HAH!!! If you value your life, you’ll give me ALL your items!!!",
+		"declaringFriendship": "Here I was, thinking of a plan to get Princess Peach, and all of a sudden, you walk up to me and BEG me to let you join the Koopa Troop! I have no choice BUT to let you in! It was so pathetic!",
+		
+		"outerColor": [42, 1, 53],
+		"innerColor": [199, 25, 43],
+		
+		"uniqueName": "The Great Demon King Koopa",
+		"uniques": [
+			"[+50]% Production when constructing [Courthouse] buildings [in all cities]",
+			"Comment [+2% [Production] when constructing Military units in capital for every Annexed Cities]"
+			"[+2]% Production when constructing [Military] units [in capital] <for every [[Annexed] Cities]> <hidden from users>"
+		],
+		"cities": [
+			"Bowser's Castle", "Neo Bowser Castle", "Crystal Palace", "Hotel Delfino", "Tubba Blubba's Castle", 
+			"Koopa Bros. Fortress", "Whomp's Fortress", "Bianco Hills", "Big Boo's Haunt", "Cloudy Climb", 
+			"Corona Mountain", "Desert Land", "Giant Land", "Grass Land", "Ice Land", 
+			"Pipe Land", "Sky Land", "Dry Dry Ruins", "Gelato Beach", "Goomba Road", 
+			"Mt. Lavalava", "Noki Bay", "Ricco Harbor", "Seaside", "Windy Mill"
+		]
+		"spyNames": [
+			"Bowser Jr.", 
+			"Ludwig von Koopa", 
+			"Roy Koopa",
+			"Lemmy Koopa",
+			"Larry Koopa",
+			"Morton Koopa Jr.",
+			"Wendy O. Koopa",
+			"Iggy Koopa",
+			"Kamek", 
+			"Kammy Koopa", 
+			"Boom Boom", 
+			"Corporal Paraplonk", 
+			"Pom Pom", 
+			"Private Goomp", 
+			"Sergeant Guy", 
+		]
+	},
+	{
+		"name": "WarioWare, Inc.",
+		"leaderName": "Wario",
+		"adjective": ["WarioWare"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		"personality": "Wario",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "How could you forget Wario's tremendous wit?",
+		"defeated": "I lost! To a buncha' losers!",
+		"introduction": "Welcome to my town! I’m WARIO! More muscular than any strongman! More stylish than any fashionista! More gorgeous than any Hollywood star! Get a good look at me while you can!!",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "*sobs* Boo-hoo! I'm crying because this trade is just - it's just so - BEAUTIFUL!",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [248, 176, 0],
+		"innerColor": [80, 0, 120],
+		
+		"uniqueName": "Get Rich Quick!",
+		"uniques": [
+			"Comment [+5% Strength for Melee Land units for every 50 [Gold] Per Turn, up to 25%]"
+			"[+5]% Strength <for [{Melee} {Land}] units> <for every [50] [[Gold] Per Turn]> <when number of [[Gold] Per Turn] is less than [250]> <hidden from users>",
+			"[+25]% Strength <for [{Melee} {Land}] units> <when number of [[Gold] Per Turn] is more than [250]> <hidden from users>"
+		],
+		"cities": [
+			"Diamond City", "Wildflower Fields", "Curious Factory", "Pinball Zone", "Big Board",
+			"Domino Row", "Crescent Moon Village", "Ratl Ruins", "Stonecarving City", "Gurgle Gulch",
+			"Glittertown", "Neon City", "Launchpad Labyrinth", "Bamboozle Village", "Excitement Central",
+			"Greenhorn Ruins", "Spooktastic World", "Thrillsville", "Sparkle Land", "Wario Stadium",
+			"Wario Colosseum", "Rice Beach", "Tidal Coast", "Sea Turtle Rocks", "Frigid Sea",
+			"Palm Tree Paradise", "Wavy Waters", "Windbreak Bay", "Creep Blue Sea", "Vast Plain",
+			"Desert Ruins", "Toxic Landfill", "Whoopsie Desert", "Just Plains", "Pecan Sands",
+			"Parsley Woods", "Wario's Woods", "Maze Woods", "Forest of Fear", "Doodle Woods"
+		]
+		"spyNames": [
+			"Jimmy T",
+			"Dribble",
+			"Spitz",
+			"Mona",
+			"9-Volt",
+			"Orbulon",
+			"Dr. Crygor",
+			"Kat",
+			"Ana",
+			"18-Volt",
+			"Ashley",
+			"Red",
+			"Mike",
+			"Young Cricket",
+			"Master Mantis",
+			"Penny",
+			"5-Volt",
+			"Lulu",
+			"Fronk"
+		]
+	},
+	/*
+	{
+		"name": "Springfield",
+		"leaderName": "Homer Simpson",
+		"adjective": ["Springfield"],
+		"startBias": [""],
+		"preferredVictoryType": "Cultural",
+		//"personality": "Homer Simpson",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "That’s it! You people have stood in my way long enough.",
+		"attacked": "D’oh!",
+		"defeated": "Whatever, I'll be at Moe's.",
+		"introduction": "I'm Homer Simpson! The greatest guy in his-tor-y. From the town of Springfield!",
+		
+		"neutralHello": "Mmm... donuts.",
+		"hateHello": "I guess some people never change. Or, they quickly change and then quickly change back.",
+		//I never apologize… I’m sorry but that’s the way I am.
+		"denounced": "Why you little!",
+		
+		"tradeRequest": "To alcohol! The cause of, and solution to, all life's problems!",
+		"declaringFriendship": "I'd like to propose a toast to the coming together of you and I.",
+		
+		"outerColor": [9, 121, 216],
+		"innerColor": [247, 222, 40],
+		
+		"uniqueName": "",
+		"uniques": [
+			"Cannot build [Settler] units"
+		],
+		"cities": [
+			"Springfield"
+		]
+		"spyNames": [
+			"Moe",
+			"Bart",
+			"Lisa",
+			"Marge",
+			"Maggie",
+			"Ned",
+			"Abe",
+			"Barney"
+			"Lenny",
+			"Carl",
+			"Apu",
+		]
+	},
+	*/
+	{
+		"name": "Petoria",
+		"leaderName": "Peter Griffin",
+		"adjective": ["Petorian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Domination",
+		"personality": "Peter Griffin",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Nyehehehehehehehe. We're at war now.",
+		"attacked": "Whoa, whoa, whoa, whoa, whoa, whoa, whoa, whoa, whoa, whoa, whoa, whoa... Take it easy.",
+		"defeated": "Huh, my last beer. Here goes.",
+		"introduction": "Hello, and welcome to Petoria. I am the President of Petoria, Peter Griffin, and I deserve your respect.",
+		
+		"neutralHello": "Hello, what are you doing?",
+		"hateHello": "I just wanna talk to you.",
+		"denounced": "Oh my God! Who, the hell, cares?!",
+		
+		"tradeRequest": "Hello, I have something you may want, but it’s going to cost you. That’s right, all the Gold.",
+		"declaringFriendship": "Hey there, I'll just leave this here for you.",
+		
+		"outerColor": [247, 239, 192],
+		"innerColor": [85, 37, 38],
+		
+		"uniqueName": "E. Peterbus Unum",
+		"uniques": [
+			"[+50]% [Science] [in capital]",
+			"Cannot build [Settler] units",
+			"[Great Dictator] is earned [+50]% faster",
+			"Resting point for Influence with City-States is increased by [15]",
+			"[Civilian] units gain the [No Borders] promotion <hidden from users>",
+			"Comment [Civilian units may enter foreign tiles without open borders]",
+		],
+		"cities": [
+			"Petoria", "Joehio"
+		]
+		"spyNames": [
+			"Meg",
+			"Stewie",
+			"Lois",
+			"Brian",
+			"Chris",
+			"Joe",
+			"Quagmire",
+			"Cleveland"
+		]
+	},
+	{
+		"name": "Chum Bucket",
+		"leaderName": "Plankton",
+		"adjective": ["Chum Bucket"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Domination",
+		"personality": "Plankton",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "It is becoming increasingly obvious...I can deny it no longer! I am small... AND I WILL RULE THE WORLD!!!",
+		"attacked": "Oh, please, I can cause far more collateral damage than that. Karen, where'd you put my death ray?",
+		"defeated": "It's just obvious that I'm a complete failure and a waste of a lower life form...",
+		"introduction": "Hello, I am Sheldon J. Plankton, welcome to the Chum Bucket. If you become a loyal customer, I won't invade you. Fair deal, no?",
+		
+		"neutralHello": "Ah, welcome. You here to order my food? If not, I’m kind of busy right now.",
+		"hateHello": "You people are crazy! I'm getting outta here.",
+		"denounced": "Oh yeah? Well, someone should put you in a box floating down the river!",
+		
+		"tradeRequest": "It's a gift. A gift from a friend. Friends give each other gifts.",
+		"declaringFriendship": "I command you to become my friend! I mean, will you please become my friend?",
+		
+		"outerColor": [79, 26, 32],
+		"innerColor": [114, 134, 214],
+		
+		"uniqueName": "Plan Z",
+		"uniques": [
+			"[+1 Production, +1 Science] from every [{Food} {Building}]",
+			"Gain an extra spy <upon entering the [Renaissance era]>",
+			"Earn [25]% of killed [Military] unit's [Strength] as [Science]"
+		],
+		"cities": [
+			"Chum Bucket", "Mega Bucket", "Chum Caverns", "Chumporium", "Chum Coliseum",
+			"Make-A-Chum Workshop", "Chum Caverns Gift Shop", "Grease Bucket", "Spud Bucket", "FlowerPot Florist",
+			"Cookie Bucket", "Crumb Basket", "Krusty Bucket"
+		]
+		"spyNames": [
+			"Karen",
+			"Karen 2"
+			"Petunia",
+			"Robot Krabs",
+			"Robot Patrick",
+			"Robot SpongeBob",
+			"Robot Squidward",
+			"Simmy",
+			"SpongeBot SteelPants",
+			"Spot",
+			"Tally",
+		]
+	},
+	{
+		"name": "Krusty Krab",
+		"leaderName": "Mr. Krabs",
+		"adjective": ["Krusty"],
+		"startBias": ["Plains"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Mr. Krabs",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Am I really going to defile your nation for money? Of course I am!",
+		"attacked": "You’ll never get a CENT out of me! NEVER!! I’d rather a worm come in here RIGHT NOW and EAT me ALIVEEEEEEE!!!",
+		"defeated": "What doesn’t kill you, usually succeeds in a second attempt...",
+		"introduction": "Hello, welcome to the Krusty Krab. I'm Mr. Krabs, and I like money.",
+		
+		"neutralHello": "Squidward! Take this customer's order.",
+		"hateHello": "If you’re wasting time, you’re wasting money… and that’s just sick.",
+		"denounced": "All right, you foul mouth. As punishment for fouling the air in me restaurant with yer foul words, you're going to give the Krusty Krab a fresh coat of paint from top to bottom.",
+		
+		"tradeRequest": "I got this bargain for me!",
+		"declaringFriendship": "Would you like a job at the Krusty Krab, starting today?",
+		
+		"outerColor": [71, 58, 15],
+		"innerColor": [185, 176, 245],
+		
+		"uniqueName": "People Order Our Patties",
+		"uniques": [
+			"[+4 Gold] from each Trade Route",
+			"[+1 Food, +1 Gold] from every [{Food} {Building}]",
+		],
+		"cities": [
+			"Krusty Krab", "Krusty Krab 2", "Rusty Krab", "Kuddly Krab", "5-Star Krusty Krab",
+			"Krusty Krab Museum", "Krusty Factory", "Krusty Slammer", "Krusty Towers", "The Krusty Sponge",
+			"Krabby O'Mondays", "Bubbly Krab", "Krabby Krust", "Krusty Lair", "Secret Krusty Krab",
+			"Krusty Bucket" //"The Designated Area Where You Are Permitted by Man Ray, Your Ruler, to Obtain Sandwiches Using Man Ray Dollars"
+		]
+		"spyNames": [
+			"SpongeBob",
+			"Squidward",
+			"Jim",
+			"Charles",
+			"Not SpongeBob",
+			"Patrick",
+			"Pearl",
+			"The Hash-Slinging Slasher",
+			"Barry",
+			"Squidabeth",
+			"Maitre D."
+		]
+	},
+	/*
+	{
+		"name": "Freddy Fazbear's Pizza",
+		"leaderName": "Freddy Fazbear",
+		"adjective": ["Fazbear"],
+		"startBias": ["Avoid [Coast]","Avoid [Snow]","Avoid [Tundra]"],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "Freddy Fazbear",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": ""
+		
+		"declaringWar": "What's that you say? You didn't invite me? Too bad...",
+		"attacked": "Now would be a good time to hold your breath.",
+		"defeated": "Most people like my hugs...",
+		"introduction": "Welcome to Freddy Fazbear's Pizza.\nA magical place for kids and grown-ups alike, where fantasy and fun come to life.\nI'm your entertainer, Freddy Fazbear, and I've prepared a special happy fun time, just for you.",
+		
+		"neutralHello": "I hope you enjoy my visit. I'm planning on making it extra special for you.",
+		"hateHello": "Uh, what on earth are you doing here?",
+		"denounced": "Now, now, all that fear there isn't helping either of us.",
+		
+		"tradeRequest": "I've got a special delivery, just for you.",
+		"declaringFriendship": "",
+				
+		"outerColor": [57, 36, 13],
+		"innerColor": [49, 225, 243],
+		"style": "",
+		
+		"uniqueName": "Where Fantasy and Fun Come to Life",
+		"uniques": [
+			"[+1 Happiness] from every [Luxury resource]",],
+		"cities": [
+			"Show Stage", "Dining Area", "Pirate Cove", "West Hall", "West Hall Corner",
+			"Supply Closet", "East Hall", "East Hall Corner", "Backstage", "Kitchen",
+			"Restrooms", "Security Office"
+		]
+        "spyNames": [
+			"Freddy", 
+			"Chica", 
+			"Bonnie", 
+			"Foxy", 
+			"Golden Freddy",
+			"Mr. Cupcake"
+			
+		]
+	},
+	{
+		"name": "Fazbear's Fright",
+		"leaderName": "Springtrap",
+		"adjective": ["Fazbear's Fright"],
+		"startBias": ["Avoid [Coast]"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Springtrap",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Hide if you want, it did not save the others.",
+		"attacked": "Suffer now, like all those who stood before me.",
+		"defeated": "I always come back...",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "I hate you. I've always hated you.",
+		"denounced": "I’m going to get out, and I’m going to find you. And I’ll give you a REAL reason to cry.",
+		
+		"tradeRequest": "How can you resist, an offer such as this?",
+		"declaringFriendship": "",
+		
+		"outerColor": [44, 73, 33],
+		"innerColor": [145, 165, 110],
+		
+		"uniqueName": "The Horror Attraction",
+		"uniques": [
+			
+		],
+		"cities": [
+			"The Office", "Hall 01", "Hall 02", "Hall 03", "Hall 04",
+			"Hall 05", "Hall 06", "Hall 07", "Hall 08", "Hall 09",
+			"Hall 10"
+		]
+		"spyNames": [
+			"Phantom Freddy",
+			"Phantom Chica",
+			"Phantom Foxy",
+			"Phantom Mangle",
+			"Phantom Balloon Boy",
+			"Phantom Puppet",
+			"Shadow Cupcake",
+			"Golden Cupcake"
+		]
+	},
+	{
+		"name": "Freddy Fazbear's Mega Pizzaplex",
+		"leaderName": "Glamrock Freddy",
+		"adjective": ["Mega Pizzaplex"],
+		"startBias": ["Avoid [Jungle]"],
+		"preferredVictoryType": "Cultural",
+		//"personality": "Glamrock Freddy",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "Shame on you!",
+		"defeated": "",
+		"introduction": "Scanning complete. How odd. Your guest profile is unknown to me. Who are you?",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "I'm not nearly that annoying, am I?",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [202, 131, 105],
+		"innerColor": [143, 5, 5],
+		
+		"uniqueName": "Way To Go Superstar!",
+		"uniques": [
+			"[+1 Happiness] per [3] social policies adopted",
+			"[-10]% Culture cost of adopting new Policies"
+		],
+		"cities": [
+			"The Atrium", "Roxy Raceway", "Monty Golf", "Mazercise", "Bonnie Bowl", 
+			"Superstar Daycare", "Rockstar Row", "El Chip's", "Fazer Blast", "Fazcade", 
+			"Superstar-cade", "Kid's Cove", "Glamrock Gifts", "Faz-Pad", "The Prize Counter", 
+			"Vanny's Hideout"
+		]
+		"spyNames": [
+			"Montgomery",
+			"Roxanne",
+			"Chica",
+			"Vanessa",
+			"Sun",
+			"Moon",
+			"DJ Music Man",
+			"Foxy",
+			"Bonnie",
+			"El Chip",
+			"Mr. Hippo"
+		]
+	},
+	*/
+	{
+		"name": "Barbie Land",
+		"leaderName": "Barbie",
+		"adjective": ["Barbie"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Barbie",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Hello there! I'm Barbie! What about you? I hope we get along well!",
+		
+		"neutralHello": "Hi there!",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [251, 255, 254],
+		"innerColor": [233, 2, 140],
+		
+		"uniqueName": "I'm a Barbie Girl!",
+		"uniques": [
+			"[+1 Culture] from every specialist [in all cities]",
+			"[+15]% [Culture] <in [all] cities> <for [4] turns> <upon declaring friendship>"
+		],
+		"cities": [
+			"Malibu", "Pink Avenue", "Barbie Beachfront", "Fashion Square", "Starlight Studios", 
+			"Glamour Heights", "Dream Closet District", "Crystal Cove", "Sparkle Plaza", "Sunset Boulevard", 
+			"Rainbow Terrace", "Glitter Gardens", "Pink Palace Quarter", "Dreamland Runway", "Malibu Marina", 
+			"Starshine Hills", "Fashionista Row", "Dreamland Galleria", "Coral Court", "Glitz Grove", 
+			"Barbie Studios Lot", "Seashell Shores", "Diamond District", "Pink Petals Park", "Glam Promenade", 
+			"Starlight Beach", "Dreamland Academy", "Fuchsia Fields",
+		]
+		"spyNames": [
+			"Ken",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	/*
+    {
+        "name": "Starline Empire",
+        "leaderName": "Doctor Starline",
+        "adjective": ["Starline"],
+        "startBias": ["Desert"],
+        "preferredVictoryType": "Domination",
+		//"personality": "Starline",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "Tonight is the beginning of the end. The sun will rise on a new era! \nOne where I control the narrative! I will guide the people of this world out of their complacency! Today begins my glorious new age of chaos and transformation!",
+        "attacked": "You're a vainglorious brute who thinks himself a conqueror. No matter.",
+        "defeated": "I planned everything out. Down to the smallest detail. I had every advantage. Accounted for every contingency. And I still lost. I did everything right. You destroyed all that effort in minutes. I'm a failure. An utter, disgraceful failure...",
+        "introduction": "Allow me to introduce myself. I am Dr. Starline, prodigy of the scientific and villainous world. No need for introductions, I already know who you are.",
+		
+        "neutralHello": "Ah, you. Come for something foolish, I suppose?",
+        "hateHello": "All according to plan...",
+		"denounced": "Like clockwork! Fortunately for me, my plans necessitate this.",
+		
+        "tradeRequest": "I give you what you want, you give me what I need. A fair deal.",
+		"declaringFriendship": "Yes, become my ally. I'm sure you will be of great use.",
+		
+		"outerColor": [85, 64, 92],
+		"innerColor": [255, 126, 49],
+		
+        "uniqueName": "Operation: Remaster",
+        "uniques": [
+        ],
+        "cities": [
+			"Starline Base Sigma", "Doctor Starline's Repository", "Starline Base Alpha", "Starline Base Beta", "Starline Base Gamma", 
+			"Starline Base Delta", "Starline Base Epsilon", "Starline Base Zeta", "Starline Base Eta", "Starline Base Theta", 
+			"Starline Base Iota", "Starline Base Kappa", "Starline Base Lambda", "Starline Base Mu", "Starline Base Nu", 
+			"Starline Base Xi", "Starline Base Omicron", "Starline Base Pi", "Starline Base Rho", "Starline Base Tau", 
+			"Starline Base Upsilon", "Starline Base Phi", "Starline Base Chi", "Starline Base Psi", "Starline Base Omega",
+        ]
+		"spyNames": [
+			"Surge",
+			"Kitsunami",
+			"Rough",
+			"Tumble",
+			"Mimic"
+		]
+    },
+	*/
+	/*
+	{
+		"name": "Angel Island",
+		"leaderName": "Knuckles",
+		"adjective": ["Angel Island"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		//"personality": "Knuckles",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [60, 64, 50],
+		"innerColor": [2, 255, 169],
+		
+		"uniqueName": "Guardian of the Master Emerald",
+		"uniques": [
+		],
+		"cities": [
+			"Angel Island", "Sky Sanctuary", "Hidden Palace Zone"
+		]
+		"spyNames": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	*/
+	/*
+	{
+		"name": "The Restoration",
+		"leaderName": "Amy Rose",
+		"adjective": ["Restoration"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "Amy Rose",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [86, 165, 180],
+		"innerColor": [147, 28, 32],
+		
+		"uniqueName": "",
+		"uniques": [
+		],
+		"cities": [
+			"Restoration HQ", "Vista View", "Windmill Village", "Seaside City", "Floral Forest Village",
+			"Spiral Hill Village", "Sunset City", "Winterburg", "Barricade Town", "Glass Hill", 
+			"Turtleshell Island", "Riverside", "Orchardville", "Sequin"
+		]
+		"spyNames": [
+			"Tails",
+			"Whisper",
+			"Tangle",
+			"Avatar",
+			"Belle",
+			"Jewel",
+			"Lanolin"
+		]
+	},
+	*/
+	{
+		"name": "United Federation",
+		"leaderName": "President",
+		"adjective": ["G.U.N."],
+		"startBias": ["River"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "President",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "We must stand united to defend our world against these invaders!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "Spare me the details. Exactly, just what is it that you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "Let's work to ensure peace and prosperity for a brighter future! What do you say?",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [117, 33, 18],
+		"innerColor": [255, 255, 255],
+		
+		"uniqueName": "Guardian Units of Nations",
+		"uniques": [
+			"Gain [5] Influence with a [{Military} {Land}] gift to a City-State",
+			"[+25]% Production when constructing [Military] units [in capital] <for [5] turns> <upon being declared war on by [Major] Civilizations> <hidden from users>",
+			"Comment [+25% [Production] when constructing Military units in capital for 5 turns upon being declared war on by Major Civilizations]"
+		],
+		"cities": [
+			"Central City", "Station Square", "Soleanna", "Westopolis", "Spagonia", "Empire City", "Chun-Nan", "Mazuri"
+		]
+		"spyNames": [
+			"Dutch",
+			"Honch",
+			"Rico",
+			"Spike",
+			"Vincent",
+			"Rouge",
+			"Frances",
+			"Tower",
+			"Gerald",
+			"Herman",
+			"Parr",
+			"Victoria "
+		]
+	},
+	{
+		"name": "Sol Empire",
+		"leaderName": "Blaze",
+		"adjective": ["Sol"],
+		"startBias": ["River", "Grassland"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Blaze",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome to the Sol Empire. I am Blaze, the princess of this beautiful land. But please, just call me by my name.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [230, 207, 246],
+		"innerColor": [128, 108, 142],
+		
+		"uniqueName": "Devotion To My People",
+		"uniques": [
+			"[+50]% Golden Age length",
+			"[+50]% City-State Influence degradation",
+			"[+1 Culture, +1 Happiness] from every [Castle]",
+			"[+1 Culture, +1 Happiness] from every [Palace] <after discovering [Chivalry]>"
+		],
+		"cities": [
+			"Imperial Palace of Sol", "Water Palace", "Sky Babylon", "Night Carnival", "Plant Kingdom",
+			"Blizzard Peaks", "Whale Point", "Altitude Limit", "Leaf Storm", "Hidden Island"
+		]
+		"spyNames": [
+			"Colonel",
+			"Daikun",
+			"Gardon",
+			"Kylok",
+			"Muzy",
+			"Setter",
+			"Tabby",
+			"Marine"
+		]
+	},
+	/*
+	{
+		"name": "Battle Kukku Empire",
+		"leaderName": "Great Battle Kukku",
+		"adjective": ["Kukku"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Great Battle Kukku",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "I'll teach you who rightfully owns the sky!",
+		"attacked": "I'll HANDLE this belligerence.",
+		"defeated": "The Battle Kukku Empire will not be gone for long! We will return!",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [148, 108, 34],
+		"innerColor": [182, 214, 242],
+		
+		"uniqueName": "Rightful Owners of the Skies",
+		"uniques": [
+			"Comment [Can carry 1 extra Air unit in all cities]",
+			"Gain a free [Our Sky] [in all cities] <hidden from users>"
+			"[-25]% maintenance costs <for [Air] units>",
+			"[+20]% Production when constructing [Fighter] units [in all cities]"
+		],
+		"cities": [
+			"Battle Fortress", "Coco Island", "Polly Mountain", "Lake Crystal", "Caron Forest",
+			"Green Island", "Cavern Island", "Lake Rocky", "Volcanic Tunnel", "Poloy Forest"
+		]
+		"spyNames": [
+			"Battle Kukku XVI",
+			"Doctor Fukurokov",
+			"Robo Kukku",
+			"Sniper Kukku",
+			"Little Kukku",
+			"Rock Throwing Combatant",
+			"Bomb Throwing Combatant",
+			"Jumping Combatant",
+			"Mecha Golem No. 5",
+			"Mecha Golem"
+		]
+	},
+	{
+		"name": "Freedom Fighters",
+		"leaderName": "Sonic",
+		"adjective": ["Freedom Fighter"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "Sonic",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "Hey there! I'm Sonic! Sonic the Hedgehog! Just a guy who loves adventure! What about you?",
+		
+		"neutralHello": "Watchya up to?",
+		"hateHello": "Yeah?",
+		"denounced": "I've heard worse from Shadow.",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [208, 223, 241],
+		"innerColor": [0, 57, 120],
+		
+		"uniqueName": "My World",
+		"uniques": [
+		],
+		"cities": [
+			"Knothole", "Green Hill Zone"
+		]
+		"spyNames": [
+			"Amy",
+			"Tails",
+			"Sally Acorn",
+			"Big",
+			"Nicole",
+			"Bunnie",
+			"Antoine",
+			"Rotor",
+			"Cream",
+			"T-Pup"
+		]
+	},
+	*/
+	/*
+    {
+        "name": "Eggman Empire Prime",
+        "leaderName": "Doctor Ivo Robotnik",
+        "adjective": ["Eggman"],
+        "startBias": ["Super-Genius Scientists Don't Need One"],
+        "preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "This planet isn't big enough for you and me!",
+        "attacked": "A nice dream. But dreams are meant to be... broken.",
+        "defeated": "You nincom-bots! You let them into our capital!",
+        "introduction": "",
+		
+        "neutralHello": "",
+        "hateHello": "",
+		"denounced": "",
+		
+        "tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [145, 157, 173],
+		"innerColor": [146, 32, 36],
+		
+        "uniqueName": "",
+        "uniques": [
+        ],
+        "cities": [
+			"Robotropolis", "New Megaopolis", "Metropolis", "Eggland", "Eggman Empire Fortress", 
+			"Robotnikland", "Studiopolis", "X-Zone", "XX", "Atomic Destroyer",
+			"Titanic Monarch", "Electric Egg", "Egg Fortress", "E.G.G. Station", 
+			"Sky Fortress", "Silver Castle", "Sleeping Egg", "Final Egg", "Gimme Shelter", 
+			"Egg Toy Land", "Scrap Brain", "Cosmic Angel", "Crystal Egg", "Sky Base", 
+			"Sky Fortress", "Scrambled Egg", "Metallic Madness", "Mad Gear",
+        ]
+		"spyNames": [
+		"Snively",
+		"Jun Kun",
+		"Iron Queen",
+		"Orbot",
+		"Cubot",
+		"Metal Sonic",
+		"Metal Knuckles",
+		"Metal Tails",
+		"Metal Amy",
+		"Heavy",
+		"Bomb"
+		]
+    },
+	*/
+	{
+		"name": "Gotham City",
+		"leaderName": "Batman",
+		"adjective": ["Gotham"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Scientific",
+		"personality": "Batman",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "The hammer of justice is unisex. You're going to Arkham, criminal.",
+		"attacked": "I am Vengeance. I am the Night. I am Batman!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Everyone has a choice. The question is whether we’re brave enough to make the right one.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [255, 255, 0],
+		"innerColor": [0, 0, 0],
+		
+		"uniqueName": "War on all Criminals",
+		"uniques": [
+			"Gain an extra spy <upon entering the [Renaissance era]> <hidden from users>",
+			"Gain an extra spy <upon entering the [Industrial era]> <hidden from users>",
+			"Gain an extra spy <upon entering the [Modern era]> <hidden from users>",
+			"Gain an extra spy <upon entering the [Atomic era]> <hidden from users>",
+			"Gain an extra spy <upon entering the [Information era]> <hidden from users>",
+			"[-15]% maintenance cost for [All] buildings [in all cities]"
+			"Comment [Gain an extra spy upon entering the Renaissance era and onwards]",
+		],
+		"cities": [
+			"Wayne Manor", "Wayne Tower", "Wayne Botanical Garden", "Crime Alley", "Arkham Asylum", 
+			"One Gotham Center", "Gotham City Hall", "Gotham City Hall District", "G.P.C.D. Headquarters", "Gotham Superior Courthouse", 
+			"The Clocktower", "Robinson Park", "The Reservoir", "Dixon Dock", "Peterson R.R. Tubes", "Gotham Light & Power", 
+			"Mooney Bridge", "Gotham River", "Old Trigate Bridge", "Gordon's House"
+		]
+		"spyNames": [
+			"Dick Grayson", 
+			"Barbara Gordon", 
+			"Tim Drake", 
+			"Jason Todd", 
+			"Katherine Kane", 
+			"Helena Wayne", 
+			"Stephanie Brown", 
+			"Damian Wayne", 
+			"Cassandra Cain", 
+			"Jim Gordon",
+			"Alfred",
+			"Caroline Kelley"
+		]
+	},
+	/*
+	{
+		"name": "Urzikstan",
+		"leaderName": "Roman Barkov",
+		"adjective": ["Urzikstani"],
+		"startBias": ["Desert"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Roman Barkov",
+		//"favoredReligion": "Islam?",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "I am here to bring law and order to this land, and no terrorist thief will harm my country! I will protect Russia!",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [43, 76, 58],
+		"innerColor": [255, 255, 255],
+		
+		"uniqueName": "",
+		"uniques": [
+		],
+		"cities": [
+			"Sakhra", "Aqtabi", "Riyzabbi", "Tobraka", "Suldal", 
+			"Faridah", "Meska", "Haditha", "El Nadaar", "Khandor", 
+			"Al-Raab", "Darus", "Takkari", "Rammaza", "Tobrak", 
+			"Barakett", "Al-Kasab", "Kushaak", "El Basrak", "Zaravan"
+		]
+		"spyNames": [
+			"J-12",
+			"Luka",
+			"Andrei",
+			"Viktor",
+			"Evgeny",
+			"Dmitry Bale",
+			"Makarov",
+			"Vladimir",
+			"J-13"
+		]
+	},
+	*/
+	{
+		"name": "Grove Street Families",
+		"leaderName": "Sweet Johnson",
+		"adjective": ["Grove Street"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Sweet Johnson",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Grove Street is king! Say it with me, Grove Street is KING! Yeah!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Whassup?",
+		"hateHello": "And where the fuck you think you're going?",
+		"denounced": "Man, shut up.",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [255, 206, 138],
+		"innerColor": [70, 71, 41],
+		
+		"uniqueName": "Grove Street 4 Life",
+		"uniques": [
+			"Comment [Military Land units may capture killed Armored units with 33% chance]",
+			"[{Military} {Land}] units gain the [Damn Armor] promotion <hidden from users>",
+			"[+15]% Strength <vs [Major] units> <when number of [[Luxury] resource of [Hostile] Civilizations] is more than [[Luxury] resource of [Grove Street Families] Civilizations]>"
+		],
+		"cities": [
+			"Ganton", "Playa del Seville", "Temple", "Santa Maria Beach", "Vinewood",
+			"Glen Park", "Idlewood", "Willowfield"
+		]
+		"spyNames": [
+			"Carl Johnson",
+			"Big Smoke",
+			"Ryder",
+			"Brian Johnson",
+			"Big Bear",
+			"Big Devil",
+			"Little Devil",
+			"Tony",
+			"LB",
+			"Scarf Face"
+		]
+	},
+	/*
+	{
+        "name": "The Combine",
+        "leaderName": "Dr. Wallace Breen",
+        "adjective": ["Combine"],
+        "startBias": ["River"],
+        "preferredVictoryType": "Domination",
+		//"personality": "Dr. Wallace Breen",
+		//"favoredReligion": "None",
+		
+        "startIntroPart1": "",
+        "startIntroPart2": "",
+		
+        "declaringWar": "If only you had harnessed your boundless energy for a useful purpose!",
+        "attacked": "I don't know what you can possibly hope to achieve, apart from your own annihilation.",
+        "defeated": "Even if you offered your surrender now, I cannot guarantee that Our Benefactors would accept it...",
+        "introduction": "I have been proud to call City 17 my home. And so, whether you are here to stay, or passing through on your way to parts unknown, welcome to City 17.",
+		
+        "neutralHello": "The weather today is fair.",
+        "hateHello": "Do what is right, serve mankind.",
+		
+        "tradeRequest": "This is not open to debate.",
+		
+		"outerColor": [15, 15, 15],
+		"innerColor": [180, 116, 1],
+
+        "uniqueName": "Our Benefactors",
+        "uniques": [
+			"Comment [starting from the [Atomic era]]"
+		],
+        "cities": [
+            "City 17", "City 16", "City 15", "City 13", "City 12", 
+			"City 11", "City 8", "City 24", "City 27", "City 10", 
+			"City 14", "City 9", "City 7", "City 6", "City 5", 
+			"City 4", "City 3", "City 2", "City 1", "City 18", 
+			"City 19", "City 20", "City 22", "City 23", "City 26", 
+			"City 21", "City 25"
+		]
+		"spyNames": [
+			"APEX", 
+			"BOOMER", 
+			"ECHO", 
+			"FLATLINE", 
+			"HELIX", 
+			"ICE", 
+			"KILO", 
+			"MACE", 
+			"NOVA", 
+			"PAYBACK", 
+			"QUICKSAND", 
+			"RIPCORD", 
+			"SUNDOWN", 
+			"UNIFORM",
+			"WALLHAMMER"
+		]
+    },
+	*/
+	/*
+	{
+		"name": "Dunan",
+		"leaderName": "Teresa Wisemail",
+		"adjective": ["Dunan"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "Teresa Wisemail",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [4, 52, 39],
+		"innerColor": [97, 202, 168],
+		
+		"uniqueName": "Dunan Unification War",
+		"uniques": [
+			"Militaristic City-States grant units [2] times as fast when you are at war with a common nation"
+		],
+		"cities": [
+			"Muse City", "South Window City", "Two River City", "Greenhill City", "L'Renouille",
+			"Radat Town", "Coronet Town", "Kuskus Town", "Lakewest Town", "Kyaro Town"
+		]
+		"spyNames": [
+			"Riou",
+			"Viktor",
+			"Flik",
+			"Ridley Wizen",
+			"Kiba Windamier",
+			"Hauser",
+			"Georg Prime",
+			"Maximilian",
+			"Gilbert",
+			"Ayda"
+		]
+	},
+	*/
+	{
+		"name": "Umbrella Corporation",
+		"leaderName": "Oswell E. Spencer",
+		"adjective": ["Umbrella Corp"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Oswell E. Spencer",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "The icy fingers of death reach towards you. Let them chill your heart!",
+		"attacked": "Fantastic! With these results, I am inching closer and closer to godhood and you to your death!",
+		"defeated": "Insolence! Sacrilege! This is unacceptable!",
+		"introduction": "Welcome, subjects! Prepare to assist me or die on the altar of my ascension!",
+		
+		"neutralHello": "A mindless existence elevated to purpose by my touch.",
+		"hateHello": "You're less than guinea pigs to me.",
+		"denounced": "That was it? That was all you could muster? Pathetic!",
+		
+		"tradeRequest": "I will not grant you the luxury of choice.",
+		"declaringFriendship": "It is my right to become a god. You should be pleased to sacrifice yourself for this!",
+		
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		
+		"uniqueName": "Protecting the Health of the People",
+		"uniques": [
+			"[+2 Gold] from every [Medical Lab]",
+			"[+2 Gold] from every [Research Lab]",
+			"Provides [2] [T-Virus] <if [Research Lab] is constructed>"
+		],
+		"cities": [
+			"Rockfort Island", "Antarctic Base", "Umbrella Waste Disposal Facility", "Umbrella Africa Laboratory", "Sonido de Tortuga Island",
+			"Umbrella Lab", "Arklay Laboratory", "Umbrella Executive Training School", "Chicago Laboratory", "NEST",
+			"NEST 2", "Umbrella Chemical Plant", "Incineration Disposal Plant P-12A", "Umbrella R&D Center", "Paris Laboratory",
+			"Château de Loire", "Umbrella Europe Laboratory Six", "Sheena Island", "Caucasus Laboratory"
+		]
+		"spyNames": [
+			"Tyrell Patrick",
+			"Sergei Vladimir",
+			"Nikolai Zinoviev",
+			"HUNK",
+			"Ghost",
+			"A. Kirkpatrick",
+			"Goblin 6",
+			"Rodriguez"
+		]
+	},
+	{
+		"name": "Los Illuminados",
+		"leaderName": "Osmund Saddler",
+		"adjective": ["Los Illuminado"],
+		"startBias": ["Lakes", "Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "Osmund Saddler",
+		"favoredReligion": "Los Illuminados",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You leave me little choice. The blasphemous unwilling to repent… shall be put to the whip!",
+		"attacked": "Writhe in my cage of torment, my friend.",
+		"defeated": "No! The glory of las plagas is eternal!",
+		"introduction": "If you must know, my name is Osmund Saddler, the master of this fine... religious community.",
+		
+		"neutralHello": "You have come, my child.",
+		"hateHello": "Foolish lambs. Why do you deny grace?",
+		"denounced": "My child, do you still not understand? Why would you rob so many poor souls of their salvation? Why do you oppose me? Have you no compassion?",
+		
+		"tradeRequest": "I simply wish to share this gift with as many as possible. A humble wish, don’t you think?",
+		"declaringFriendship": "Ah, yes. The time has come… for this lamb to join our covenant. Oh, blessings unto him and the sweet mercies they bring! Exalt all - and let it be so!",
+		
+		"outerColor": [72, 54, 95],
+		"innerColor": [190, 195, 153],
+		
+		"uniqueName": "Sacred Body",
+		"uniques": [
+			"Cannot build [Settler] units",
+			"Earn [100]% of killed [Military] unit's [Strength] as [Faith]"
+		],
+		"cities": [
+			"Valdelobos"
+		]
+		"spyNames": [
+			"Ramón Salazar",
+			"Verdugo",
+			"Pesanta",
+			"Bitores Méndez",
+			"Dr. Salvador",
+			"Don Jose",
+			"Don Diego",
+			"Don Esteban",
+			"Isabel",
+			"Maria"
+		]
+	},
+	/*
+	{
+		"name": "Latveria",
+		"leaderName": "Doctor Doom",
+		"adjective": ["Latverian"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Doctor Doom",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [39, 117, 58],
+		"innerColor": [0, 0, 0],
+		
+		"uniqueName": "Enforced Monarchy",
+		"uniques": [
+		],
+		"cities": [
+			"Doomstadt", "Doomsburg", "Doomsdale", "Doomsvale", "Doomton",
+			"Doomwood", "Doomcity", "Folding City"
+		]
+		"spyNames": [
+			"Alexander Flynn",
+			"Arturo Frazen",
+			"Karl Hassen",
+			"Boris",
+			"Sabbat",
+			"Cristos Malachi",
+			"Cynthia Von Doom",
+			"Gustav Hauptmann",
+			"Hans Stutgart",
+			"Dreamer"
+		]
+	},
+	{
+		"name": "Land of Oz",
+		"leaderName": "Ozma",
+		"adjective": ["Oz"],
+		"startBias": ["Avoid [Tundra]", "Avoid [Snow]"],
+		"preferredVictoryType": "Cultural",
+		//"personality": "Ozma",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [90, 210, 151],
+		"innerColor": [80, 41, 19],
+		
+		"uniqueName": "Great Book of Records",
+		"uniques": [
+		],
+		"cities": [
+			"Emerald City", "Munchkin Village", "Cave City", "Sapphire City", "Shutter Town",
+			 "Up Town", "Loonville", "Blankenberg", "Bookville", "Icetown",
+			 "Regalia", "Purplefield", "Utensia", "Cuttenclip Village", "Fuddlecumjig",
+			 "Rigmarole Town", "Flutterbudget Center", "Chimneyville", "Soot City", "Scare City",
+			 "Swing City", "Herku", "Perhaps City", "Thi", "Tune Town",
+			 "Remote Tableland"
+		]
+		"spyNames": [
+			"Dorothy Gale",
+			"Scarecrow",
+			"Tin Woodman",
+			"Cowardly Lion",
+			"Locasta Tattypoo",
+			"Glinda",
+			"Omby Amby",
+			"Cap'n Bill",
+			"Tik-Tok",
+			"Guardian of the Gates"
+		]
+	},
+	{
+		"name": "The Covenant",
+		"leaderName": "Prophet of Truth",
+		"adjective": ["Covenant"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Prophet of Truth",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [66, 20, 126],
+		"innerColor": [136, 210, 236],
+		
+		"uniqueName": "Writ of Union",
+		"uniques": [
+			"[+25]% Production when constructing [Military] units [in capital]",
+			"[+25]% Production when constructing [Military] units [in holy cities]"
+		],
+		"cities": [
+			"High Charity", "Sunaion", "Ap'ot", "Janjur Qom", "Sanghelios",
+			 "Doisac", "Chu'ot", "Eayn", "T'vao", "Balaho",
+			 "Palamok", "Te", "Ansket IV", "Hesduros", "Creck",
+			 "Rahnelo", "Zhoist", "Ealen IV", "Malurok", "Hesiod",
+			 "Mis'Fah Thom", "51 Pegasi B", "Saepon'kal", "Sephune III", "Strilun IV,",
+			 "Ven III", "Dokra-Movi"
+		]
+		"spyNames": [
+			"Wattinree",
+			"Tartarus",
+			"Thel 'Vadam",
+			"Rtas 'Vadum",
+			"Sesa 'Refumee",
+			"Ripa 'Moramee",
+			"Vata 'Gajat",
+			"Merg Vol"
+		]
+	},
+	{
+		"name": "Krypton",
+		"leaderName": "Jor-El",
+		"adjective": ["Kryptonian"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Scientific",
+		//"personality": "Jor-El",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [90, 125, 38],
+		"innerColor": [201, 246, 107],
+		
+		"uniqueName": "Children of Krypton",
+		"uniques": [
+		],
+		"cities": [
+			"Kryptonopolis", "Kandor", "Xan City", "Argo City", "Wizard City"
+		]
+		"spyNames": [
+			"Kal-El",
+			"Lara Lor-Van",
+			"Kara Zor-El",
+			"Zor-El",
+			"Zod",
+			"Jax-Ur",
+			"Non",
+			"Ursa",
+			"Pir-El",
+			"Val-El"
+		]
+	},
+	{
+		"name": "Land of Fire",
+		"leaderName": "Fire Daimyō",
+		"adjective": ["Fire"],
+		"startBias": ["Forest"],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "Fire Daimyō",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [165, 73, 89],
+		"innerColor": [0, 0, 0],
+		
+		"uniqueName": "Will of Fire",
+		"uniques": [
+		],
+		"cities": [
+			"Konohagakure", "Fire Temple", "Hachō Village", "Tanzaku Quarters", "Tonika Village"
+		]
+		"spyNames": [
+			"Hashirama",
+			"Tobirama",
+			"Hiruzen",
+			"Minato",
+			"Tsunade",
+			"Kakashi",
+			"Naruto",
+			"Konohamaru",
+			"Sasuke",
+			"Sakura"
+		]
+	},
+	*/
+	{
+		"name": "LazyTown",
+		"leaderName": "Robbie Rotten",
+		"adjective": ["LazyTowner"],
+		"startBias": ["Hill"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Robbie Rotten",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You don't stand a chance. Now why don't you sit quietly and do nothing like a good little leader?",
+		"attacked": "LazyTown is the laziest town on the planet... and I'm going to keep it that way.",
+		"defeated": "I, Robbie Rotten, will not be beaten by you!",
+		"introduction": "Now listen closely. I am Robbie Rotten, villain number one! If you want to be a villain number one like me, just follow my lead!",
+		
+		"neutralHello": "Whatever.",
+		"hateHello": "Shoo! Go home! Hello! Go home!",
+		"denounced": "Nope, it's not my day. It's not my day. I thought it is. Not my day.",
+		
+		"tradeRequest": "Hello, Sir! My name is Rob U. Blind, Traveling Salesman. Uh ha! Have you ever thought to yourself, boy, my nation needs this? Have you? Huh, hey?",
+		"declaringFriendship": "With this, I will teach you how to be a villain!",
+		
+		"outerColor": [115, 46, 94],
+		"innerColor": [186, 141, 187],
+		
+		"uniqueName": "Villain Number One",
+		"uniques": [
+			"Cannot build [Settler] units",
+			"[+25]% [Happiness] [in capital] <when number of [[Great Person] Units] is equal to [1]>",
+			"[+25]% Strength <for [{Military} {Land}] units> <when number of [[Great Person] Units] is equal to [1]>",
+			
+		],
+		"cities": [
+			"LazyTown", "LazierTown", "LaziestTown"
+		]
+		"spyNames": [
+			"Stingy",
+			"Trixie",
+			"Pixel",
+			"Ziggy",
+			"Mayor Milford",
+			"Bessie Busybody",
+			"Roboticus",
+			"Tobby Rotten",
+			"Bobby Rotten",
+			"Flobby Rotten"
+		]
+	},
+	{
+		"name": "Piggy Kingdom",
+		"leaderName": "Smooth Cheeks",
+		"adjective": ["Piggy"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Domination",
+		"personality": "Smooth Cheeks",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "Wwwwaaaaaaahhh-hah-hah-haah!!!",
+		"introduction": "Welcome to Pig City, the capital city of my great kingdom. The first thing you'll notice as you walk through the enormous gate is my majestic castle, the second is that there are pigs everywhere! You won't see any birds here. It's strictly feather-free unless they happen to have eggs of course. Ha ha ha!",
+		
+		"neutralHello": "Welcome.",
+		"hateHello": "Hmph!",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [44, 83, 35],
+		"innerColor": [252, 180, 36],
+		
+		"uniqueName": "Egg Hunt",
+		"uniques": [
+			"[+1 Food] from [Bonus resource] tiles [in capital]",
+			"[+1 Food] from [Bonus resource] tiles [in all cities]",
+			"[+15]% Strength <for [{Military} {Land}] units> <within [2] tiles of a [Bonus resource]>"
+		],
+		"cities": [
+			"Pig City", "Pig Town", "New Pork City", "Porksmouth", "Hamsterdam",
+			"Porkyo", "San Hamsisco", "Hogtham", "Salohrad", "Porkow", 
+			"Hampshire", "Swinedon", "Hog Kong", "Ho Chi Meat City", "Rio de Hamerio", 
+			"New Deli", "Porkston", "Swinoul", "Lardopan", "Squeal Lake City",
+			//More Cities To Come
+			//"", "", "", "", "",
+			//"", "", "", "", ""
+		]
+		"spyNames": [
+			"Dr. Frankenswine",
+			"El Porkador",
+			"Chronicler Pig",
+			"Corporal Pig", 
+			"Hambo", 
+			"Dr. Pork, M.D.",
+			"Chef Pig",
+			"Goliath Pig",
+			"Pigiana Jones",
+			"Billy The Piglet", 
+		]
+	},
+	/*
+	{
+		"name": "R'lyeh",
+		"leaderName": "Cthulhu",
+		"adjective": ["R'lyeh"],
+		"startBias": ["Ocean"],
+		"preferredVictoryType": "Domination",
+		//"personality": "Cthulhu",
+		//"favoredReligion": "Cthulhu Cult",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "......",
+		"attacked": "......",
+		"defeated": "............",
+		"introduction": "............",
+		
+		"neutralHello": "..........",
+		"hateHello": ".......",
+		"denounced": "...........",
+		
+		"tradeRequest": ".......",
+		"declaringFriendship": "..........",
+		
+		"outerColor": [49, 45, 42],
+		"innerColor": [23, 135, 91],
+		
+		"uniqueName": "Priest of the Great Old Ones",
+		"uniques": [
+			"Enables embarkation for land units",
+			"Enables [all] units to enter ocean tiles",
+			"[+100]% Yield from every [Holy site]",
+		],
+		"cities": [
+			"R'lyeh", "Leng", "Tsang", "Nameless City", "Irem",
+			"Sanaa", "Damascus", "Istanbul", "Innsmouth", "New Orleans",
+			"Arkham", "Dunedin"
+		]
+		"spyNames": [
+			"Abdul Alhazred",
+			"Castro",
+			"Kathulos",
+			"White Polypous Thing",
+			"Ghatanothoa",
+			"Ythogtha",
+			"Zoth-Ommog",
+			"Spencer Osborne",
+			"Wilson Brewster",
+			"Leviathan"
+		]
+	},
+	*/
+	{
+		"name": "The Wilderness",
+		"leaderName": "The Collector",
+		"adjective": ["Wilderness"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		"personality": "The Collector",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "You rejected my friendship? Then I will make you my friend through force!",
+		"attacked": "Ha! You think you can beat me, little puny thing? I am The Collector, and you'll never catch me!",
+		"defeated": "I'm sorry! I'm not really a bad guy. The reason I don't share is that I have no friends!",
+		"introduction": "Welcome to my territory! I am The Collector, and you will become my friend!",
+		
+		"neutralHello": "Welcome back.",
+		"hateHello": "This is just the start!",
+		"denounced": "Ha ha ha ha! This is nothing, little puny thing!",
+		
+		"tradeRequest": "I take what's mine! Give it now!",
+		"declaringFriendship": "Become my friend! I'll force you if you decline!",
+		
+		"outerColor": [22, 16, 23],
+		"innerColor": [208, 117, 94],
+		
+		"uniqueName": "Friends by Force",
+		"uniques": [
+			"[-25]% enemy spy effectiveness [in all cities with a garrison]",
+			"Resting point for Influence with City-States is increased by [1] <for every [2] [[Annexed] Cities]>"
+		],
+		"cities": [
+			"The Collector's Lair", "The Collector's Prison", "The Bunker", "The Wheel", "The Frozen Tundra", 
+			"Jetpack Tunnel", "Rotor Tubes", "Spline Rider"
+		]
+		"spyNames": [
+			"The Soldier",
+			"The General",
+			"The Scientist",
+			"Grenade Toy Soldier",
+			"Relaxed Toy Soldier",
+			"Shooting Toy Soldier",
+			"Lone Wiper Enemy",
+			"Lone Double-Wiper Enemy",
+			"Triple-Decker-Enemy",
+			"Flip-Top Enemy"
+		]
+	},
+	{
+		"name": "Dream Land",
+		"leaderName": "Dedede",
+		"adjective": ["Dream Land"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Dedede",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "When you lose, I get to laugh at you...big time! Ha-ha-ha!!",
+		"attacked": "Your dream has carried you far, but here it ends.",
+		"defeated": "Waaaaahh!!",
+		"introduction": "",
+		
+		"neutralHello": "Finally! I thought you'd never get here.",
+		"hateHello": "What is going on here?!",
+		"denounced": "You can't be mean to my Waddle Dees! Only I can be mean to my Waddle Dees!",
+		
+		"tradeRequest": "What do you think?",
+		"declaringFriendship": "You aren't half bad, but you're no match for me.",
+		
+		"outerColor": [27, 37, 158],
+		"innerColor": [238, 212, 1],
+		
+		"uniqueName": "Gourmet Race",
+		"uniques": [
+			"[+1 Production] from every [Farm]",
+			"Provides [1] [Dream Land Burger] <for every [3] [[Granary] Buildings]>",
+			"Provides [1] [Dream Land Cherries] <for every [4] [[Garden] Buildings]>",
+			"Provides [1] [Dream Land Shortcake] <for every [5] [[Lighthouse] Buildings]>",
+		],
+		"cities": [
+			"Mt. Dedede", "Prism Plains", "Dedede Resort", "Bubbly Clouds", "Float Islands", 
+			"Castle Lololo", "Green Greens", "Fountain of Dreams", "Rainbow Resort", "Orange Ocean", 
+			"Yogurt Yard", "Grape Garden", "Butter Building", "Ice Cream Island", "Vegetable Valley", 
+			"Dark Castle", "Cloudy Park", "Red Canyon", "Dream Land Iceberg", "Ripple Field", 
+			"Big Forest", "Grass Land", "Sand Canyon", "Corn Hall", "Pumpkin Grand", 
+			"Crash Clouds", "Illusion Islands", "Purple Plants"
+		]
+		"spyNames": [
+			"Bandana Waddle Dee",
+			"Meta Knight",
+			"Poppy Bros.",
+			"Sr.",
+			"Whispy Woods",
+			"Lololo",
+			"Lalala",
+			"Kabula",
+			"Kracko",
+			"Mr. Frosty",
+			"Bugzzy"
+		]
+	},
+	{
+		"name": "3rd Street Saints",
+		"leaderName": "Playa",
+		"adjective": ["3rd Street Saint"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Playa",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "",
+		"defeated": "So I'm silent, then I'm in a coma. Then I'm an asshole, then I'm famous. Then I topple a worldwide crime syndicate, then I stop Cyrus from blowing up the world. Then I become president, then I become an alien emperor, hahaha! I think I had the best life ever...",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "Unless you're a politician on a boat, you ain't my nightmare.",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [195, 182, 215],
+		"innerColor": [141, 1, 231],
+		
+		"uniqueName": "Do Whatever We Want",
+		"uniques": [
+			"[Gold] cost of purchasing items in cities [-1]% <for every [4] [Happiness]>"
+		],
+		"cities": [
+			"Stilwater", "Steelport", "Virtual Steelport", "Hell", "Seoul", "Santo Ileso"
+		]
+		"spyNames": [
+			"Johnny Gat",
+			"Pierce Washington",
+			"Shaundi",
+			"Oleg Kirrlov",
+			"Kinzie Kensington",
+			"Keith David",
+			"Benjamin King",
+			"Matt Miller",
+			"Asha Odekar",
+			"CID"
+		]
+	},
+	{
+		"name": "Bullworth",
+		"leaderName": "Gary Smith",
+		"adjective": ["Bullworth"],
+		"startBias": ["River"],
+		"preferredVictoryType": "Domination",
+		"personality": "Gary Smith",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Let's have a war!",
+		"attacked": "The thing is, if I win, you're just another punk! You win, and you'll be sent away even quicker for beating up the head boy!",
+		"defeated": "Whatever, well done. Go tell your mommy!",
+		"introduction": "Hey - you're the new kid! You look like you're pretty tough... Listen to me tough guy, you just arrived at the toughest school in the country and I'm offering to be your friend. Trust me, in a place like this, you're gonna need friends. So it's up to you. You gonna play nice, or what?",
+		
+		"neutralHello": "I keep imagining myself in charge of a large empire",
+		"hateHello": "Come here, we're gonna torture you.",
+		"denounced": "And you're a loser... one of life's unfortunates.",
+		
+		"tradeRequest": "So, listen. I'm gonna need a favor. Just give exactly what I tell you to.",
+		"declaringFriendship": "It's sink or swim, my friend. And if you're good at swimming, you gotta let the losers drown.",
+		
+		"outerColor": [34, 34, 61],
+		"innerColor": [135, 111, 37],
+		
+		"uniqueName": "Canis Canem Edit",
+		"uniques": [
+			"[+5]% [Culture] [in capital] <for every [Remaining [Hostile] Civilizations]>"
+		],
+		"cities": [
+			"Bullworth Academy", "Bullworth Town", "Old Bullworth Vale", "New Coventry", "Blue Skies Industrial Park", "Happy Volts Asylum"
+		]
+		"spyNames": [
+			"Earnest Jones",
+			"Derby Harrington",
+			"Johnny Vincent",
+			"Ted Thompson",
+			"Melvin O'Connor",
+			"Bif Taylor",
+			"Peanut Romano",
+			"Damon West",
+			"",
+			""
+		]
+	},
+	{
+		"name": "Van der Linde Gang",
+		"leaderName": "Dutch van der Linde",
+		"adjective": ["Van der Linde"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Dutch van der Linde",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [87, 88, 85],
+		"innerColor": [236, 221, 175],
+		
+		"uniqueName": "Dutch always has a Plan",
+		"uniques": [
+			"Earn [20]% of the damage done to [Military] units as [Gold]",
+			"[+15]% Strength <when fighting units from a Civilization with more Cities than you>"
+		],
+		"cities": [
+			"Beaver Hollow", "Cochinay", "Lakay", "Shady Belle", "Clemens Point", "Horseshoe Overlook", "Colter", "Guarma"
+		]
+		"spyNames": [
+			"Hosea Matthews",
+			"Arthur Morgan",
+			"Susan Grimshaw",
+			"John Marston",
+			"Javier Escuella",
+			"Bill Williamson",
+			"Micah Bell",
+			"Charles Smith",
+			"Sean MacGuire",
+			"Lenny Summers"
+		]
+	},
+	{
+		"name": "Eagleland",
+		"leaderName": "Ness",
+		"adjective": ["Eagleland"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Ness",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [239, 45, 51],
+		"innerColor": [255, 255, 255],
+		
+		"uniqueName": "Anti-Giygas Company",
+		"uniques": [
+			"[-15]% Strength <vs [Barbarians]>",
+			"Comment [+30 City health, +5 City strength in your first 4 cities]",
+			"Provides a [Anti Giygas Company] in your first [4] cities for free <hidden from users>"
+		],
+		"cities": [
+			"Fourside", "Onett", "Twoson", "Threed", "Fivesville",
+			"Sixton", "Sevenburg", "Eightown", "Ninetenia", "Tenessie"
+		]
+		"spyNames": [
+			"Paula",
+			"Jeff",
+			"Poo",
+			"Ninten",
+			"Lucas",
+			"Ana",
+			"Lloyd",
+			"Kumatora",
+			"Duster",
+			"Boney",
+			"King"
+		]
+	},
+	{
+		"name": "Coalition of Ordered Governments",
+		"leaderName": "Nassar Embry",
+		"adjective": ["COG"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Nassar Embry",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [6, 32, 74],
+		"innerColor": [255, 255, 255],
+		
+		"uniqueName": "Octus Canon",
+		"uniques": [
+			"[+2]% [Science] [in all cities] <for every [Adopted [Order] Policies]>",
+			"[+1 Science, +1 Production] from [Strategic resource] tiles [in all cities]",
+			"[+2 Science, +2 Production] from [Strategic resource] tiles [in all cities] <starting from the [Industrial era]>"
+		],
+		"cities": [
+			"Ephyra", "Jacinto", "Port Farrall", "New Jacinto", "New Ephyra",
+			"Mercy", "Char", "Halvo Bay", "Kalona", "Timgad",
+			"Ilima", "Jannermont", "Speyer", "Tollen", "Montevado",
+			"Hanover", "Gerrenhalt", "Concord", "Claybourne", "Aldair",
+			"Bravelle", "Port Caval", "Anvegad", "Shavad", "Denava",
+			"Jasper", "Seiden", "Berephus", "Branascu"
+		]
+		"spyNames": [
+			"Marcus Fenix",
+			"Dominic Santiago",
+			"Augustus Cole",
+			"Damon Baird",
+			"Anya Stroud",
+			"Anthony Carmine",
+			"Benjamin Carmine",
+			"Clayton Carmine",
+			"Jace Stratton",
+			"Samantha Byrne",
+			"Minh Young Kim"
+		]
+	},
+	{
+		"name": "United Nations Space Command",
+		"leaderName": "Terrence Hood",
+		"adjective": ["UNSC"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Terrence Hood",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [60, 88, 69],
+		"innerColor": [167, 198, 177],
+		
+		"uniqueName": "Winter Contingency",
+		"uniques": [
+			"[+15]% Strength <for [Military] units> <when fighting in [Friendly] tiles>",
+			"[+15]% Strength <when fighting units from a Civilization with more Cities than you>"
+		],
+		"cities": [
+			"Sydney", "New Mombasa", "Voi", "London", "Chicago",
+			"New Phoenix", "Cairo", "Quito", "Elysium City", "Crisium City",
+			"New Alexandria", "Manassas", "Esztergom", "Meridian Station", "Côte d'Azur",
+			"Mindoro", "Sedra City", "Quezon"
+		]
+		"spyNames": [
+			"John-117",
+			"Jameson Locke",
+			"Margaret Parangosky",
+			"Serin Osman",
+			"Catherine Halsey",
+			"Veronica Dare",
+			"James Ackerson",
+			"Olympia Vale",
+			"Michael Sullivan",
+			"Evan Phillips"
+		]
+	},
+	/*
+	{
+		"name": "McDonaldland",
+		"leaderName": "Mayor McCheese",
+		"adjective": ["Mc"],
+		"startBias": ["Forest", "Hill", "Lakes"],
+		"preferredVictoryType": "Diplomatic",
+		//"personality": "Mayor McCheese",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "What'll we do?",
+		"defeated": "Oh my. Oh my. This is awful.",
+		"introduction": "",
+		
+		"neutralHello": "Greetings, friend.",
+		"hateHello": "",
+		"denounced": "",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [191, 10, 11],
+		"innerColor": [255, 204, 0],
+		
+		"uniqueName": "I'm Lovin' It",
+		"uniques": [
+			"Cannot build [Settler] units",
+			"[+2 Culture] from all [Food] buildings",
+			
+		],
+		"cities": [
+			"McDonaldland"
+		]
+		"spyNames": [
+			"Ronald McDonald",
+			"Hamburglar",
+			"Grimace",
+			"Birdie the Early Bird",
+			"Uncle O'Grimacy",
+			"CosMc",
+			"Bernice",
+			"Officer Big Mac",
+			"Captain Crook",
+			"Happy"
+		]
+	},
+	*/
+	{
+		"name": "Rapture",
+		"leaderName": "Andrew Ryan",
+		"adjective": ["Rapture"],
+		"startBias": ["Coast"],
+		//"startBias": ["Ocean"],
+		//"preferredVictoryType": "None",
+		"personality": "Andrew Ryan",
+		//"favoredReligion": "None",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "I am Andrew Ryan, and I am here to ask you a question. Is a man not entitled to the sweat of his brow?\n\n'No,' says the man in Washington, 'it belongs to the poor.'\n'No,' says the man in the Vatican, 'it belongs to God.'\n'No,' says the man in Moscow, 'it belongs to everyone.'\n\nI rejected those answers. Instead, I chose something different. I chose the impossible. I chose...\n\nRapture.\n\nA city where the artist would not fear the censor,\nwhere the scientist would not be bound by petty morality,\nwhere the great would not be constrained by the small.\n\nAnd with the sweat of your brow, Rapture can become your city, as well.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [14, 50, 56],
+		"innerColor": [194, 158, 52],
+		
+		"uniqueName": "No Gods or Kings, Only Man",
+		"uniques": [
+			"Starts with [Sailing]",
+			"Cannot build [Settler] units",
+			"Nullifies [Faith] [in all cities]",
+			"[+1 Science] from every [Scientist] <hidden from users>",
+			"[+1 Gold] from every [Merchant] <hidden from users>",
+			"[+1 Culture] from every [Artist] <hidden from users>",
+			"[+1 Production] from every [Engineer] <hidden from users>",
+			"Comment [+1 Yield from every Specialist]",
+			"Enables embarkation for land units <starting from the [Ancient era]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
+			"Enables [all] units to enter ocean tiles <starting from the [Ancient era]>",
+			"[-1 Faith, +1 Culture] from all [Shrine] buildings <hidden from users>",
+			"[+5]% Great Person generation [in all cities] <in cities with a [Shrine]> <hidden from users>",
+			"[-2 Faith, +2 Culture] from all [Temple] buildings <hidden from users>",
+			"[+10]% Great Person generation [in all cities] <in cities with a [Temple]> <hidden from users>",
+			"[-8 Faith, +8 Culture] from all [Grand Temple] buildings <hidden from users>",
+			"[+40]% Great Person generation [in all cities] <in cities with a [Grand Temple]> <hidden from users>"
+			"[-1 Faith, +1 Culture] from all [Cathedral] buildings <hidden from users>",
+			"[+5]% Great Person generation [in all cities] <in cities with a [Cathedral]> <hidden from users>",
+			"[-2 Faith, +2 Culture] from all [Monastery] buildings <hidden from users>",
+			"[+10]% Great Person generation [in all cities] <in cities with a [Monastery]> <hidden from users>",
+			"[-3 Faith, +3 Culture] from all [Mosque] buildings <hidden from users>",
+			"[+15]% Great Person generation [in all cities] <in cities with a [Mosque]> <hidden from users>",
+			"[-2 Faith, +2 Culture] from all [Pagoda] buildings <hidden from users>",
+			"[+10]% Great Person generation [in all cities] <in cities with a [Pagoda]> <hidden from users>",
+			"Comment [Religious Buildings increase Great Person Generation and provide [Culture] rather than providing [Faith]]"
+			//Can found cities in Ocean tiles
+			//Religious Buildings increase Great Person Generation rather than providing Faith.
+		],
+		"cities": [
+			"Rapture"
+		]
+		"spyNames": [
+			"Jasmine Jolene",
+			"J.S. Steinman",
+			"Julie Langford",
+			"Sander Cohen",
+			"Albert Milonakis",
+			"Anton Kinkaide",
+			"Anya Andersdotter",
+			"Bill McDonagh",
+			"Brenda",
+			"Charley"
+		]
+	},
+	{
+		"name": "Arstotzka",
+		"leaderName": "Glorious Leader",
+		"adjective": ["Arstotzkan"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Glorious Leader",
+		//"favoredReligion": "None",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [45, 60, 48],
+		"innerColor": [215, 88, 86],
+		
+		"uniqueName": "Glory to Arstotzka",
+		"uniques": [
+			"Free [Worker] appears <upon founding a city>",
+			"[+1 Production] per [5] population [in all cities]",
+			"[-1 Food, -1 Happiness] per [6] population [in all cities]"
+		],
+		"cities": [
+			"Paradizna", "Orvech Vonor", "East Grestin", "Altan", "Vescillo",
+			"Burnton", "Octovalis", "Gennistora", "Lendiforma", "Wozenfield",
+			"Fardesto", "Nirsk"
+		]
+		"spyNames": [
+			"Igor Savochkin",
+			"Sergiu Volda",
+			"M. Vonel",
+			"Dimitri",
+			"Calensk",
+			"Jorji",
+			"Alexei",
+			"Elisa",
+			"Mikhail",
+			"Natacha"
+		]
+	},
+	/*
+	{
+		"name": "Tropico",
+		"leaderName": "El Presidente",
+		"adjective": ["Tropican"],
+		"startBias": ["Jungle", "Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "El Presidente",
+		"favoredReligion": "Christianity",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [11, 55, 122],
+		"innerColor": [0, 162, 66],
+		
+		"uniqueName": "Are You a Rebel?",
+		"uniques": [
+			"Comment [Gain 250-500 [Gold] upon entering a new era]",
+			"Gain [250]-[500] [Gold] <upon entering the [Classical era]> <hidden from users>",
+			"Gain [250]-[500] [Gold] <upon entering the [Medieval era]> <hidden from users>",
+			"Gain [250]-[500] [Gold] <upon entering the [Renaissance era]> <hidden from users>",
+			"Gain [250]-[500] [Gold] <upon entering the [Industrial era]> <hidden from users>",
+			"Gain [250]-[500] [Gold] <upon entering the [Modern era]> <hidden from users>",
+			"Gain [250]-[500] [Gold] <upon entering the [Atomic era]> <hidden from users>",
+			"Gain [250]-[500] [Gold] <upon entering the [Information era]> <hidden from users>",
+			"Gain [250]-[500] [Gold] <upon entering the [Future era]> <hidden from users>",
+			"Free [Presidente] appears <upon founding a city> <when number of [Cities] is less than [2]>"
+			"Free [Presidente] appears <every [5] turns> <when number of [[Presidente] Units] is less than [1]>"
+		],
+		"cities": [
+			"Tropico", "Santa Clara", "Isla de Hierro", "Yermo Encarnado", "Isla Desconcida",
+			"Santa Teresa", "Pachanga Volcánica", "Isla Oscura", "Nueva Esperanza", "Puerto Angélico",
+			"Isla Tropicana", "Puerto Gato", "Costa Laplata", "Santa María Magnífica", "Cara Libro",
+			"Fin del Mundo", "Isla de la Sentencia", "Isla del Furioso", "Isla de Pieta", "Piedra Island",
+			"Costa del Limbo", "Tierra de la Venganza", "Santa Helena", "Santa Pata", "El Acantilado",
+			"Isla de la Aro", "El Muerte", "Carmencita Island", "El Volar Fideos", "Belleza Celleste",
+			"Mantaraya", "Isla Rosalita", "Baja Formosa"
+		]
+		"spyNames": [
+			"Penultimo",
+			"General Rodriguez",
+			"Miss Pineapple",
+			"Sunny Flowers",
+			"Reverend Esteban",
+			"Antonio Lopez",
+			"Betty Boom",
+			"Comrade Vasquez",
+			"El Toucan",
+			"Marco Moreno"
+		]
+	},
+	*/
+	/*
+	{
+		"name": "MiSide",
+		"leaderName": "Crazy Mita",
+		"adjective": ["MiSide"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Crazy Mita",
+		//"favoredReligion": "None",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [67, 28, 72],
+		"innerColor": [255, 76, 191],
+		
+		"uniqueName": "Together at Last",
+		"uniques": [
+			"[+1] Movement <in [Friendly] tiles>",
+			"[+10]% [Science] [in all cities connected to capital]",
+			//"[+1] Movement <in [Friendly] tiles>",
+			//"[+20]% [Science] [in all cities connected to capital]"
+		],
+		"cities": [
+			"Kind Mita's Home", "Forgetful Bully Mita's Home", "Cap-Wearing Mita's Home", "Tiny Mita's Home", "Dummies's Home",
+			"Ghostly Mita's Home", "Sleepy Mita's Home", "2D Mita's Home", "Mila's Home", "Creepy Mita's Home",
+			"Core"
+		]
+		"spyNames": [
+			"Kind Mita",
+			"Cap-Wearing Mita",
+			"Tiny Mita",
+			"Short-haired Mita",
+			"Ghostly Mita",
+			"Sleepy Mita",
+			"2D Mita",
+			"Mila",
+			"Creepy Mita",
+			"Core Mita"
+		]
+	},
+	{
+		"name": "Joker's Gang",
+		"leaderName": "Joker",
+		"adjective": ["Joker"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Joker",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [127, 11, 108],
+		"innerColor": [106, 194, 17],
+		
+		"uniqueName": "Crime with a Punchline",
+		"uniques": [
+		],
+		"cities": [
+			"Joker's Funland", "Amusement Mile", "Ha-Hacienda", "Ace Chemicals", "Joker's Funhouse",
+			"Laughing Heights", "Carnival Row", "Killing Joke", "Pandemonium", "Funtime Carnival",
+			"Clownhouse", "Mirror Maze", "Cackling Circus", "Madhouse", "Smileworks"
+		]
+		"spyNames": [
+			"Harley Quinn",
+			"Captain Clown",
+			"Bob the Goon",
+			"Jonny Frost",
+			"Chuckles",
+			"Grumpy",
+			"Happy",
+			"Dopey",
+			"Fedora",
+			"Lawrence the Boombox Goon",
+			"Punchline"
+		]
+	},
+	{
+		"name": "Penguin's Mob",
+		"leaderName": "Penguin",
+		"adjective": ["Penguin"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Penguin",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [96, 106, 162],
+		"innerColor": [30, 26, 25],
+		
+		"uniqueName": "",
+		"uniques": [
+		],
+		"cities": [
+			"Iceberg Lounge"
+		]
+		"spyNames": [
+			"Jay",
+			"Lark",
+			"Raven",
+			"Eagleton",
+			"Falcone",
+			"Sheldrake",
+			"Hypnotic",
+			"Buzz",
+			"Birthday Boy",
+			"Candy",
+			"Tracey Buxton"
+		]
+	},
+	{
+		"name": "Riddler's Gang",
+		"leaderName": "Riddler",
+		"adjective": ["Riddler"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Riddler",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Riddle me this! What is green, wears a question mark, and is about to dismantle your pathetic little civilization? Why, me, of course!",
+		"attacked": "Oh, how wonderfully predictable! You attacked me, and now you've stepped directly into my game. Let's see how long you last.",
+		"defeated": "No... No, no, NO! This isn't possible! I had the answer! I had EVERY answer! How could I possibly have lost?!",
+		"introduction": "Ah, a new contestant! Welcome, welcome! Now, here's your first riddle: what has an army, a capital, and absolutely no idea what it's getting itself into? Why, you, apparently!",
+		
+		"neutralHello": "Well, well, well! Look who decided to pay me a visit. Tell me, have you come for a challenge, or are you simply here to admire my brilliance?",
+		"hateHello": "Oh, wonderful. You again. I was beginning to enjoy the peace and quiet. Now, what do you want?",
+		"denounced": "Oh, how devastating! Riddle me this! What is green, brilliant, and completely indifferent to your opinion? Take your time. I'll wait.",
+		"neutralDenouncing": "I've given this considerable thought, and I've reached a conclusion: you're an idiot. Don't worry, though. I have a riddle that even you might be able to solve.",
+		"hateDenouncing": "You know, I've encountered some truly remarkable fools in my time, but you? You're in a league of your own. Consider this your final warning before I turn your entire civilization into one enormous puzzle.",
+		
+		"tradeRequest": "Let's make a deal, shall we? I have something you want, and you have something I want. It's almost as if this was all part of my plan from the beginning!",
+		"declaringFriendship": "You know, I've decided you're actually rather tolerable. Don't let it go to your head, though. Perhaps we could work together. Temporarily, of course.",
+		"neutralRejectingDemand": "Oh, I'm sorry. Was that supposed to be a demand? I thought it was merely an amusing suggestion. The answer is no.",
+		"hateRejectingDemand": "You have the nerve to make demands of me?! That's adorable. Here's a riddle: what is something you will never receive from me? Whatever it is you're asking for!",
+		"acceptingDemand": "Very well! I'll agree to your little demand. Don't look so surprised. Even I know when to humor an inferior intellect."
+		
+		"outerColor": [86, 145, 73],
+		"innerColor": [83, 26, 89],
+		
+		"uniqueName": "Riddle Me This!",
+		"uniques": [
+		],
+		"cities": [
+			"Riddle House", "Mystery Manor", "Conundrum", "Curiosity Corner", "Thinker's Hill",
+			"Riddle Row", "Questionmark", "Secret Square", "Riddle Hall", "Puzzle Palace",
+			"Checkmate", "Green Question", "Great Puzzle", "Final Clue", "Hidden Room"
+		]
+		"spyNames": [
+			"Query",
+			"Echo",
+			"Manny",
+			"Zowie",
+			"C.B.",
+			"Enigma",
+			"JT Wicker",
+			"Mousey",
+			"Pauline",
+			"Eli Knable"
+		]
+	},
+	{
+		"name": "Two-Face's Gang",
+		"leaderName": "Two-Face",
+		"adjective": ["Two-Face"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Two-Face",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+
+		"declaringWar": "Heads, we negotiate. Tails, we fight. Well... the coin has spoken. Looks like we're going to war.",
+		"attacked": "Fine. Let's let chance decide how this ends. Heads, you live to regret it. Tails, you don't.",
+		"defeated": "It's over... The coin... it chose wrong. No, wait... It never chooses wrong. I was the one who misread the odds.",
+		"introduction": "Harvey Dent would like to welcome you. Two-Face, on the other hand, isn't so sure. So let's leave this meeting to chance, shall we?",
+		
+		"neutralHello": "Ah, a visitor. Harvey says we should be civil. I say we flip for it.",
+		"hateHello": "You again. Harvey says we should give you another chance. I say you've already had yours.",
+		"denounced": "Harvey thinks we should forgive you. I think we should let the coin decide.",
+		"neutralDenouncing": "We have two opinions about your leadership. One says you're a fool. The other says you're a bigger fool. Flip a coin and see which one wins.",
+		"hateDenouncing": "You think you're better than us? Harvey says that's unfortunate. I say it's time you learned that every empire eventually gets what it deserves.",
+		
+		"tradeRequest": "We have a proposition. Harvey says it's a fair deal. I say we leave the fairness to chance. Heads, you accept. Tails, you don't.",
+		"declaringFriendship": "Harvey thinks we could be friends. I think he's right. For once, we agree. Consider this a fortunate turn of the coin.",
+		"neutralRejectingDemand": "You make a demand, and we make a decision. Harvey says no. I say no. Hm... Looks like the coin agrees.",
+		"hateRejectingDemand": "You expect us to bow to your demands? Harvey says absolutely not. I say... let's flip for it. Tails. How unfortunate for you.",
+		"acceptingDemand": "Very well. We'll agree to your terms. Harvey says it's the right thing to do. I say we were simply lucky enough to flip the right side."
+		
+		"outerColor": [228, 131, 50],
+		"innerColor": [67, 34, 123],
+		
+		"uniqueName": "Ask the Coin",
+		"uniques": [
+		],
+		"cities": [
+			"", "", "", "", "",
+			"", "", "", "", "",
+			"", "", "", "", "",
+			"", "", "", "", ""
+		]
+		"spyNames": [
+			"Spice",
+			"Sugar",
+			"Shifty Drake",
+			"Mad Dog",
+			"Manny",
+			"Min",
+			"Max",
+			"Mo",
+			"Abner",
+			"Karp"
+		]
+	},
+	{
+		"name": "LexCorp",
+		"leaderName": "Lex Luthor",
+		"adjective": ["LexCorp"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		"personality": "Lex Luthor",
+		//"favoredReligion": "None",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [140, 198, 63],
+		"innerColor": [0, 0, 0],
+		
+		"uniqueName": "",
+		"uniques": [
+		],
+		"cities": [
+			""
+		]
+		"spyNames": [
+			"Mercy Graves",
+			"Hope Taya",
+			"Lorilyn",
+			"Gillian",
+			"Mr. Eelan",
+			"Brutus",
+			"Otis",
+			"Eve Teschmacher",
+			"Tess Mercer",
+			"Sydney Happersen"
+		]
+	},
+	{
+		"name": "Moon Kingdom",
+		"leaderName": "Usagi Tsukino",
+		"adjective": ["Moon"],
+		"startBias": ["None"],
+		"preferredVictoryType": "Cultural",
+		//"personality": "Usagi Tsukino",
+		"favoredReligion": "Shinto",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [1, 41, 99],
+		"innerColor": [232, 27, 100],
+		
+		"uniqueName": "Silver Millennium",
+		"uniques": [
+		],
+		"cities": [
+			"Crystal Tokyo", "Moon Castle", "Mariner Castle", "Magellan Castle", "Phobos and Deimos Castle",
+			"Io Castle", "Titan Castle", "Miranda Castle", "Triton Castle", "Charon Castle"
+		]
+		"spyNames": [
+			"Selene",
+			"Ami Mizuno",
+			"Rei Hino",
+			"Makoto Kino",
+			"Minako Aino",
+			"Setsuna Meiou",
+			"Haruka Tenou",
+			"Michiru Kaiou",
+			"Chibiusa Tsukino",
+			"Hotaru Tomoe"
+		]
+	},
+	*/
+	{
+		"name": "LEGO City",
+		"leaderName": "Solomon Fleck",
+		"adjective": ["LEGO"],
+		"startBias": ["Coast", "River"],
+		//"preferredVictoryType": "None",
+		"personality": "Solomon Fleck",
+		//"favoredReligion": "None",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Prepare for war!",
+		"attacked": "You shall regret this!",
+		"defeated": "The victory is yours.",
+        "introduction": "Welcome, mighty leader.",
+		
+		"neutralHello": "Greetings.",
+		"hateHello": "What do you want?",
+		"denounced": "",
+		"neutralDenouncing": "",
+		"hateDenouncing": "",
+		
+		"tradeRequest": "Better hurry, I may change my mind.",
+		"declaringFriendship": "",
+		"neutralRejectingDemand": "",
+		"hateRejectingDemand": "",
+		"acceptingDemand": "",
+		
+		"outerColor": [218, 66, 25],
+		"innerColor": [184, 210, 225],
+		
+		"uniqueName": "HEY!!!",
+		"uniques": [
+			"[+15]% Production when constructing [all] buildings [in capital]",
+			"Can build [all] improvements at a [+25]% rate <in [Capital] cities>"
+		],
+		"cities": [
+			"LEGO City Hall", "LEGO City Police Department", "LEGO City Fire Department", "LEGO City Hospital", "LEGO City Junkyard",
+			"LEGO City Bank", "LEGO City Auto Shop", "LEGO City Park", "Old Mackenzie Place", "Little Hubert's Whipped Cream Factory",
+			"Mars Mission Launch Site", "Fendrich & Sinclair Arch", "Brickmuda Heptagon", "LEGO City Downtown Middle School", "LEGO City Stadium"
+		]
+		"spyNames": [
+			"Duke DeTain",
+			"Percival Wheeler",
+			"Allen Koenigsberg",
+			"Gracie Goodhart",
+			"Tom Bennett",
+			"Captain Leadfoot",
+			"Tommy",
+			"Cubby",
+			"Vampire Cop",
+			"Freya McCloud"
+		]
+	},
+	
+	//City-States
+	/*
+	{
+		"name": "Meropis",
+		"adjective": ["Meropian"],
+		"cityStateType": "Cultured",
+		"startBias": ["Coast"],
+
+		"declaringWar": "",
+		"attacked": "Meropis will not fall under my watch!",
+		"defeated": "",
+		"outerColor": [0, 0, 0],
+		"innerColor": [247, 164, 153],
+		"uniques": [
+		],
+		"cities": [
+			"Meropis"
+		]
+	},
+	*/
+	/*
+	{
+		"name": "",
+		"leaderName": "Duke Nukem",
+		"adjective": [""],
+		"startBias": ["None"],
+		"preferredVictoryType": "Domination",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "",
+		"attacked": "Looks like you're... Fucked.",
+		"defeated": "",
+		"introduction": "",
+		
+		"neutralHello": "",
+		"hateHello": "",
+		"denounced": "Wow, that's a lotta words... Too bad I'm not reading em.",
+		
+		"tradeRequest": "",
+		"declaringFriendship": "",
+		
+		"outerColor": [96, 102, 112],
+		"innerColor": [215, 180, 30],
+		
+		"uniqueName": "",
+		"uniques": [
+		],
+		"cities": [
+			""
+		]
+		"spyNames": [
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+			"",
+			"",
+			"",
+		]
+	},
+	*/
+	//Make Sure Waluigi is Always at the Bottom (Too Long)
+	{
+		"name": "Waluigi's Island",
+		"leaderName": "Waluigi",
+		"adjective": ["Waa"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Domination",
+		"personality": "Waluigi",
+		//"favoredReligion": "",
+		
+		"startIntroPart1": "",
+		"startIntroPart2": "",
+		
+		"declaringWar": "Talking time is over! You are in Waluigi's way now.",
+		"attacked": "Eh heh heh! Nobody gets between Waluigi and his scheming!",
+		"defeated": "Argh, Waluigi no win this time. Impossible!",
+		"introduction": "Wa-ha-ha, welcome to Waluigi's Island! My name is Waluigi, and Waluigi number one!",
+		
+		"neutralHello": "Wa-ha-ha! Waluigi, number one!",
+		"hateHello": "Go away before Waluigi gets mad!",
+		"denounced": "That's how it's going to be, eh?",
+		
+		"tradeRequest": "You WILL pay for this, and the price tag, she keeps rising!",
+		"declaringFriendship": "We’re both going to enjoy this! No one has the brains to outsmart Waluigi! Just you watch!",
+		
+		"outerColor": [61, 0, 129],
+		"innerColor": [254, 241, 0],
+		
+		"uniqueName": "Too Bad, Waluigi Time!",
+		"uniques": [
+			"Comment [+25% [Production] when constructing any building in all cities if that building is constructed by anybody]",
+			"[+25]% Production when constructing [Amphitheater] buildings [in all cities] <if [Amphitheater] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Aqueduct] buildings [in all cities] <if [Aqueduct] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Armory] buildings [in all cities] <if [Armory] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Arsenal] buildings [in all cities] <if [Arsenal] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Bank] buildings [in all cities] <if [Bank] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Barracks] buildings [in all cities] <if [Barracks] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Bomb Shelter] buildings [in all cities] <if [Bomb Shelter] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Broadcast Tower] buildings [in all cities] <if [Broadcast Tower] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Castle] buildings [in all cities] <if [Castle] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Circus] buildings [in all cities] <if [Circus] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Colosseum] buildings [in all cities] <if [Colosseum] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Constabulary] buildings [in all cities] <if [Constabulary] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Courthouse] buildings [in all cities] <if [Courthouse] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Factory] buildings [in all cities] <if [Factory] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Forge] buildings [in all cities] <if [Forge] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Garden] buildings [in all cities] <if [Garden] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Granary] buildings [in all cities] <if [Granary] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Harbor] buildings [in all cities] <if [Harbor] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Hospital] buildings [in all cities] <if [Hospital] is constructed by anybody> <hidden from users>"
+			"[+25]% Production when constructing [Hydro Plant] buildings [in all cities] <if [Hydro Plant] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Library] buildings [in all cities] <if [Library] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Lighthouse] buildings [in all cities] <if [Lighthouse] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Market] buildings [in all cities] <if [Market] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Medical Lab] buildings [in all cities] <if [Medical Lab] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Military Academy] buildings [in all cities] <if [Military Academy] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Military Base] buildings [in all cities] <if [Military Base] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Mint] buildings [in all cities] <if [Mint] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Monastery] buildings [in all cities] <if [Monastery] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Monument] buildings [in all cities] <if [Monument] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Museum] buildings [in all cities] <if [Museum] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Nuclear Plant] buildings [in all cities] <if [Nuclear Plant] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Observatory] buildings [in all cities] <if [Observatory] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Opera House] buildings [in all cities] <if [Opera House] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Police Station] buildings [in all cities] <if [Police Station] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Public School] buildings [in all cities] <if [Public School] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Recycling Center] buildings [in all cities] <if [Recycling Center] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Research Lab] buildings [in all cities] <if [Research Lab] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Seaport] buildings [in all cities] <if [Seaport] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Shrine] buildings [in all cities] <if [Shrine] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Solar Plant] buildings [in all cities] <if [Solar Plant] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Spaceship Factory] buildings [in all cities] <if [Spaceship Factory] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Stable] buildings [in all cities] <if [Stable] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Waluigi Stadium] buildings [in all cities] <if [Stadium] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Waluigi Arcade] buildings [in all cities] <if [Stock Exchange] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Stone Works] buildings [in all cities] <if [Stone Works] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Temple] buildings [in all cities] <if [Temple] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Theatre] buildings [in all cities] <if [Theatre] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [University] buildings [in all cities] <if [University] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Walls] buildings [in all cities] <if [Walls] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Water Mill] buildings [in all cities] <if [Water Mill] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Windmill] buildings [in all cities] <if [Windmill] is constructed by anybody> <hidden from users>",
+			"[+25]% Production when constructing [Workshop] buildings [in all cities] <if [Workshop] is constructed by anybody> <hidden from users>"
+		],
+		"cities": [
+			"Waluigi's Island", "Waluigi Pinball", "Waluigi Stadium", "Waluigi Court", "Chilly Waters",
+			"Deep Blooper Sea", "Spiny Desert", "Woody Woods", "Creepy Cavern", "Gate Guy",
+			"Arrowhead", "Pipesqueak", "Blowhard", "Mr. Mover", "Backtrack",
+			"Toad's Midway Madness", "Koopa's Seaside Soiree", "Goomba's Greedy Gala", "Boo's Haunted Bash", "Shy Guy's Jungle Jam",
+			"Toy Dream", "Rainbow Dream", "Pirate Dream", "Undersea Dream", "Future Dream",
+			"Sweet Dream", "Towering Treetop", "E. Gadd's Garage", "Faire Square", "Snowflake Lake",
+			"Castaway Bay", "Clockwork Castle", "Thirsty Gulch", "Astro Avenue", "Decathalon Park"
+		]
+		"spyNames": [
+			"Goomba",
+			"Bomb-Omb",
+			"Shy Guy",
+			"Boo",
+			"Koopa Troopa",
+			"Buzzy Beetle",
+			"Hammer Bro",
+			"Spiny"
+			"Cheep Cheep",
+			"Blooper",
+			"Walpeach",
 		]
 	},
 ]

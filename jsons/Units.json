@@ -29,5 +29,1030 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
-	
+	{
+		"name": "Sage",
+		"unitType": "Civilian",
+		"replaces": "Great Prophet",
+		"uniqueTo": "Hyrule",
+		"uniques": [
+			"[This Unit] gets a name from the [Sage] group",
+			"All adjacent units heal [+15] HP when healing"
+            "Can instantly construct a [Holy site] improvement <by consuming this unit> <if it hasn't used other actions yet>",
+            "Can Spread Religion <for [2] movement> <[4] times> <after which this unit is consumed>",
+			"Removes other religions when spreading religion",
+            "May found a religion <by consuming this unit> <if it hasn't used other actions yet>",
+            "May enhance a religion <by consuming this unit>  <if it hasn't used other actions yet>",
+			"May enter foreign tiles without open borders", "[-1] Sight", "Great Person - [Faith]",
+			"Unbuildable", "Religious Unit", "Only available <when religion is enabled>",
+			"Takes your religion over the one in their birth city"],
+		"movement": 2,
+		"religiousStrength": 1000
+	},
+	{
+		"name": "Hylian Soldier",
+		"unitType": "Sword",
+		"replaces": "Longswordsman",
+		"uniqueTo": "Hyrule",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Musketman",
+		"obsoleteTech": "Gunpowder",
+		"uniques": [
+			"[+30]% XP gained from combat"
+		],
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Ink-Blot Mouse",
+		"uniqueTo": "House of Mouse",
+		"replaces": "Great War Infantry",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 50,
+		"cost": 320,
+		"requiredTech": "Replaceable Parts",
+		"upgradesTo": "Infantry",
+		"obsoleteTech": "Plastics",
+		"uniques": [
+			"Never appears as a Barbarian unit",
+			"[+10]% Strength <when fighting in [Land] tiles>",
+			"[-10]% Strength <when fighting in [Water] tiles>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Knight of the Round Table",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Arthurian Britons",
+		"movement": 3,
+		"strength": 15,
+		"uniques": [
+			"Can move after attacking",
+			"[+7] Strength <after discovering [Chivalry]>",
+			"[+16] Strength <after discovering [Military Science]>",
+			"[+30] Strength <after discovering [Combustion]>",
+			"[+11] Strength <after discovering [Combined Arms]>",
+			"[+35] Strength <after discovering [Lasers]>",
+			"[+50] Strength <after discovering [Nuclear Fusion]>",
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+			"[This Unit] gets a name from the [Knight of the Round Table] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+	},
+	{
+		"name": "Great Dictator",
+		"unitType": "Civilian",
+		"replaces": "Great Artist",
+		"uniqueTo": "Petoria",
+		"uniques": [
+			"Comment [Can claim 1 tile just outside your borders once]"
+			"Gain control over [Land] tiles in a [0]-tile radius <with [1] to [6] neighboring [{your} {Land}] tiles> <for all movement> <once> <hidden from users>",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+			"[This Unit] gets a name from the [Dictator] group",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Petercopter",
+		"unitType": "Helicopter",
+		"replaces": "Helicopter Gunship",
+		"uniqueTo": "Petoria",
+		"movement": 6,
+		"strength": 60,
+		"cost": 400,
+		"requiredTech": "Computers",
+		"uniques": [
+			"[+25]% Strength <when below [15] HP>",
+			"[+100]% Strength <vs [Armored] units>", 
+			"No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Chumbot",
+		"unitType": "Armored",
+		"replaces": "Giant Death Robot",
+		"uniqueTo": "Chum Bucket",
+		"movement": 5,
+		"strength": 150,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"Before engaging in combat performs an extra ranged attack with [25]% of melee combat strength"
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Fry Cook",
+		"unitType": "Civilian",
+		"replaces": "Worker",
+		"uniqueTo": "Krusty Krab",
+		"movement": 2,
+		"uniques": [
+			"[-50]% maintenance costs",
+			"Can build [Land] improvements on tiles", 
+			"Automation is a primary action"
+		],
+		"cost": 70
+	},
+	{
+		"name": "Dream Convertible",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"uniqueTo": "Barbie Land",
+		"movement": 6,
+		"strength": 65,
+		"cost": 350,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Airship",
+		"unitType": "Helicopter",
+		"replaces": "Helicopter Gunship",
+		"uniqueTo": "Koopa Troop",
+		"movement": 6,
+		"strength": 90,
+		"cost": 600,
+		"requiredTech": "Radar",
+		"requiredResource": "Aluminum",
+		"uniques": [
+			"[+100]% Strength <vs [Armored] units>", 
+			"No defensive terrain bonus", 
+			"Can move after attacking",
+			"All tiles cost 1 movement", 
+			"Ignores Zone of Control", 
+			"Unable to capture cities", 
+			"Can carry [2] [Bullet Bill] units",
+			"[-10]% Strength for enemy [Land] units in adjacent [Land] tiles"
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Bullet Bill",
+		"unitType": "Missile",
+		"replaces": "Guided Missile",
+		"uniqueTo": "Koopa Troop",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 75,
+		"range": 8,
+		"cost": 150,
+		"requiredTech": "Ballistics",
+		"uniques": [
+			"[-100]% maintenance costs"
+		],
+		"attackSound": "missile"
+	},
+	{
+		"name": "Toad Guard",
+		"unitType": "Sword",
+		"replaces": "Pikeman",
+		"uniqueTo": "Mushroom Kingdom",
+		"movement": 2,
+		"strength": 16,
+		"cost": 65,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+15]% maintenance costs",
+			"[+50]% Strength <vs [Mounted] units>",
+			"[-50]% production cost <in [Capital] cities>"
+		],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "F-6t Big Foot",
+		"unitType": "Armored",
+		"replaces": "Giant Death Robot",
+		"uniqueTo": "United Federation",
+		"movement": 4,
+		"strength": 150,
+		"cost": 450,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Can move after attacking", 
+			"No defensive terrain bonus",
+			"Never appears as a Barbarian unit", 
+			"Can carry [2] [Guided Missile] units",
+			"May Paradrop to [Land] tiles up to [6] tiles away <in [{Friendly} {Land}] tiles>"
+		],
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Giga Trooper",
+		"unitType": "Gunpowder",
+		"replaces": "Mechanized Infantry",
+		"uniqueTo": "United Federation",
+		"movement": 3,
+		"strength": 90,
+		"cost": 350,
+		"requiredTech": "Mobile Tactics",
+		"uniques": [
+			"[+25]% Strength <vs [Gunpowder] units> <when defending>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "tankshot"
+	},
+	/*
+	{
+		"name": "Rescue Shuttle",
+		"unitType": "Helicopter",
+		"replaces": "Helicopter Gunship",
+		"uniqueTo": "The Restoration",
+		"movement": 6,
+		"strength": 60,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Restoration Security Corps",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "The Restoration",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	*/
+	{
+		"name": "Homie",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Grove Street Families",
+		"movement": 2,
+		"strength": 66,
+		"cost": 363,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"[This Unit] gains [10] XP <upon defeating a [Gunpowder] unit>"
+		]
+		"attackSound": "shot"
+	},
+	{
+		"name": "OG",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Grove Street Families",
+		"movement": 2,
+		"strength": 10,
+		"uniques": [
+			"[+33]% Strength <vs [Armored] units>",
+			"[+33]% Strength <vs [Helicopter] units>",
+			"[+5] Strength <during the [Classical era]>",
+			"[+12] Strength <during the [Medieval era]>",
+			"[+18] Strength <during the [Renaissance era]>",
+			"[+28] Strength <during the [Industrial era]>",
+			"[+50] Strength <during the [Modern era]>",
+			"[+70] Strength <during the [Atomic era]>",
+			"[+90] Strength <during the [Information era]>",
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+			"[This Unit] gets a name from the [OG] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	/*
+	{
+		"name": "Combine Hunter",
+		"unitType": "Gunpowder",
+		"replaces": "Marine",
+		"uniqueTo": "The Combine",
+		"movement": 2,
+		"strength": 65,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Overwatch Soldier",
+		"unitType": "Gunpowder",
+		"replaces": "Paratrooper",
+		"uniqueTo": "The Combine",
+		"movement": 2,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
+	},
+	{
+		"name": "Overwatch Elite",
+		"unitType": "Gunpowder",
+		"replaces": "Mechanized Infantry",
+		"uniqueTo": "The Combine",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Combine APC",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"uniqueTo": "The Combine",
+		"movement": 5,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Mortar Synth",
+		"unitType": "Siege",
+		"replaces": "Rocket Artillery",
+		"uniqueTo": "The Combine",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "Hunter-Chopper",
+		"unitType": "Helicopter",
+		"replaces": "Helicopter Gunship",
+		"uniqueTo": "The Combine",
+		"movement": 6,
+		"strength": 60,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Crab Synth",
+		"unitType": "Armored",
+		"replaces": "Modern Armor",
+		"uniqueTo": "The Combine",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Strider",
+		"unitType": "Armored",
+		"replaces": "Giant Death Robot",
+		"uniqueTo": "The Combine",
+		"movement": 5,
+		"strength": 150,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Metro Police",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "The Combine",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"attackSound": "shot"
+	},
+	*/
+	/*
+	{
+		"name": "Matilda Knight",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Dunan",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"obsoleteTech": "Military Science",
+		"upgradesTo": "Cavalry",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
+	*/
+	{
+		"name": "Ganado Cultist",
+		"unitType": "Sword",
+		"replaces": "Inquisitor",
+		"uniqueTo": "Los Illuminados",
+		"movement": 3
+		"strength": 10,
+		"uniques": [
+			"Free [Mandíbula] appears <upon being defeated> <with [20]% chance>",
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
+			"[+5] Strength <during the [Classical era]>",
+			"[+12] Strength <during the [Medieval era]>",
+			"[+18] Strength <during the [Renaissance era]>",
+			"[+30] Strength <during the [Industrial era]>",
+			"[+50] Strength <during the [Modern era]>",
+			"[+60] Strength <during the [Atomic era]>",
+			"[+80] Strength <during the [Information era]>",
+			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
+		],
+	},
+	{
+		"name": "Mandíbula",
+		"unitType": "Sword",
+		"uniqueTo": "Los Illuminados",
+		"movement": 3
+		"strength": 15,
+		"uniques": [
+			"[+1] Sight", 
+			"Unbuildable", 
+			"Religious Unit"
+			"Cannot be purchased", 
+			"Prevents spreading of religion to the city it is next to",
+			"Can remove other religions from cities <in [Friendly] tiles> <once> <after which this unit is consumed>",
+			"[+5] Strength <during the [Classical era]>",
+			"[+10] Strength <during the [Medieval era]>",
+			"[+15] Strength <during the [Renaissance era]>",
+			"[+25] Strength <during the [Industrial era]>",
+			"[+50] Strength <during the [Modern era]>",
+			"[+70] Strength <during the [Atomic era]>",
+			"[+90] Strength <during the [Information era]>",
+			"Only available <when religion is enabled>", 
+		],
+	},
+	{
+		"name": "Ganado Villager",
+		"unitType": "Sword",
+		"replaces": "Worker",
+		"uniqueTo": "Los Illuminados",
+		"movement": 2,
+		"strength": 6,
+		"cost": 70
+		"uniques": [
+			"Free [Guadaña] appears <upon being defeated> <with [30]% chance>",
+			"Can build [Land] improvements on tiles", 
+			"Automation is a primary action"
+		],
+	},
+	{
+		"name": "Guadaña",
+		"unitType": "Sword",
+		"uniqueTo": "Los Illuminados",
+		"movement": 2,
+		"strength": 10,
+		"uniques": [ 
+			"[+5] Strength <during the [Classical era]>",
+			"[+10] Strength <during the [Medieval era]>",
+			"[+15] Strength <during the [Renaissance era]>",
+			"[+25] Strength <during the [Industrial era]>",
+			"[+45] Strength <during the [Modern era]>",
+			"[+55] Strength <during the [Atomic era]>",
+			"[+75] Strength <during the [Information era]>",
+			"Unbuildable"
+		],
+	},
+	{
+		"name": "Hunter",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Umbrella Corporation",
+		"movement": 3,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"uniques": [
+			"Consumes [1] [T-Virus]",
+			"[+15]% Strength <vs [Gunpowder] units>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "U.S.S.",
+		"unitType": "Gunpowder",
+		"replaces": "Paratrooper",
+		"uniqueTo": "Umbrella Corporation",
+		"movement": 2,
+		"strength": 65,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": [
+			"Earn [33]% of killed [Military] unit's [Strength] as [Science]"
+			"Gain [2] [Science] <upon ending a turn in a [City center] tile>",
+			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
+	},
+	/*
+	{
+		"name": "Shoggoth",
+		"unitType": "Sword",
+		"uniqueTo": "R'lyeh",
+		"movement": 2,
+		"strength": 40,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": [
+			"Unit will heal every turn, even if it performs an action"
+			"[-15]% Strength for enemy [Military] units in adjacent [All] tiles"
+			"[+20] Strength <starting from the [Modern era]>",
+			"[+15] Strength <starting from the [Atomic era]>",
+			"[+25] Strength <starting from the [Information era]>",
+			"[+20] Strength <starting from the [Future era]>",
+		],
+		"promotions": ["Amphibious"],
+		"attackSound": "nonmetalhit"
+	},
+	*/
+	{
+		"name": "Soldier Pig",
+		"unitType": "Sword",
+		"uniqueTo": "Piggy Kingdom",
+		"replaces": "Pikeman",
+		"movement": 2,
+		"strength": 14,
+		"cost": 60,
+		"requiredTech": "Civil Service",
+		"uniques": [
+			"[+50]% Strength <vs [Mounted] units>"
+		],
+		"upgradesTo": "Lancer",
+		"obsoleteTech": "Metallurgy",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Makeshift Plane",
+		"unitType": "Fighter",
+		"uniqueTo": "Piggy Kingdom",
+		"replaces": "Triplane",
+		"movement": 1,
+		"strength": 32,
+		"rangedStrength": 36,
+		"range": 5,
+		"interceptRange": 5,
+		"cost": 300,
+		"requiredTech": "Flight",
+		"requiredResource": "Oil",
+		"upgradesTo": "Fighter",
+		"obsoleteTech": "Radar",
+		"uniques": [
+			"[50]% chance to intercept air attacks", 
+			"[+50]% Strength <vs [Gunpowder] units>", 
+			"[+150]% Strength <vs [Bomber] units>", 
+			"[+150]% Strength <vs [Helicopter] units>"
+		],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "The Collector's Machine",
+		"unitType": "Armored",
+		"uniqueTo": "The Wilderness",
+		"replaces": "Giant Death Robot",
+		"movement": 4,
+		"strength": 160,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": [
+			"Can move after attacking", 
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit",
+			"[+5] HP when healing <when stacked with a [Worker] unit>",
+			"[+15] HP when healing <when stacked with a [Great Scientist] unit>"
+		],
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "Eggrobo",
+		"unitType": "Gunpowder",
+		"replaces": "Paratrooper",
+		"uniqueTo": "Robotnik Empire",
+		"movement": 2,
+		"strength": 70,
+		"rangedStrength": 65,
+		"range": 1,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": [
+			"No defensive terrain penalty",
+			"May Paradrop to [Land] tiles up to [6] tiles away <in [{Friendly} {Land}] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Deep Typhoon",
+		"unitType": "Submarine",
+		"replaces": "Nuclear Submarine",
+		"uniqueTo": "Sol Empire",
+		"movement": 8,
+		"strength": 45,
+		"range": 3,
+		"rangedStrength": 100,
+		"cost": 450,
+		"requiredTech": "Telecommunications",
+		"uniques": [
+			"[+75]% Strength <when attacking>", 
+			"Can only attack [Water] tiles", 
+			"[+1] Sight", 
+			"Can carry [2] [Missile] units", 
+			"[-4] Movement <in [Coast] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Ocean Tornado",
+		"unitType": "Ranged Water",
+		"replaces": "Battleship",
+		"uniqueTo": "Sol Empire",
+		"movement": 7,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 400,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": [
+			"[+25]% Strength <vs [Melee Water] units> <when attacking>", 
+			"[-4] Movement <in [Coast] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Waddle Dee",
+		"unitType": "Sword",
+		"replaces": "Worker",
+		"uniqueTo": "Dream Land",
+		"movement": 2,
+		"strength": 5,
+		"cost": 70
+		"requiredTech": "Agriculture",
+		"uniques": [
+			"Automation is a primary action"
+			"Can build [Land] improvements on tiles", 
+			"[+7] Strength <after discovering [Civil Service]>",
+			"[-50]% construction time for [Farm] improvements",
+			"[-50]% construction time for [Pasture] improvements",
+			"[-50]% construction time for [Plantation] improvements",
+		],
+		"attackSound": "nonmetalhit",
+	},
+	/*
+	{
+		"name": "Sonic",
+		"unitType": "Sword",
+		"movement": 4,
+		"strength": 10,
+		"uniques": [
+			"Unbuildable",
+			"Can move after attacking",
+			"Transfer Movement to [Tails]",
+			"[+5] Strength <during the [Classical era]>",
+			"[+12] Strength <during the [Medieval era]>",
+			"[+18] Strength <during the [Renaissance era]>",
+			"[+30] Strength <during the [Industrial era]>",
+			"[+50] Strength <during the [Modern era]>",
+			"[+70] Strength <during the [Atomic era]>",
+			"[+90] Strength <during the [Information era]>",
+			"[+5] HP when healing <when stacked with a [Tails] unit>"
+		],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Tails",
+		"unitType": "Civilian",
+		"movement": 3,
+		"uniques": [
+			"Unbuildable",
+			"Can build [Land] improvements on tiles",
+			"[-15]% construction time for [All] improvements",
+		],
+		"attackSound": "nonmetalhit",
+	},
+	*/
+	{
+		"name": "Prefect",
+		"unitType": "Sword",
+		"replaces": "Warrior",
+		"uniqueTo": "Bullworth",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques": [
+			"May capture killed [Military] units <with [25]% chance>"
+			"May upgrade to [Spearman] through ruins-like effects"
+		],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "Wapiti Warrior",
+		"unitType": "Mounted",
+		"replaces": "Cavalry",
+		"uniqueTo": "Van der Linde Gang",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combustion",
+		"requiredResource": "Horses",
+		"upgradesTo": "Landship",
+		"uniques": [
+			"Can move after attacking",
+			"No defensive terrain bonus",
+			"[-33]% Strength <vs cities> <when attacking>",
+			"[+20]% Strength <when fighting in [{Hostile} {Improvement}] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Zombie Gang Member",
+		"unitType": "Sword",
+		"uniqueTo": "3rd Street Saints",
+		"movement": 2,
+		"strength": 19,
+		"cost": 100,
+		"requiredTech": "Theology",
+		"uniques": [
+			"Cost increases by [5] when built"
+			"[+25]% Strength <vs [Gunpowder] units>",
+			"[+4] Strength <during the [Renaissance era]>",
+			"[+14] Strength <during the [Industrial era]>",
+			"[+30] Strength <during the [Modern era]>",
+			"[+46] Strength <during the [Atomic era]>",
+			"[+61] Strength <during the [Information era]>"
+		],
+		"attackSound": "nonmetalhit",
+	},
+	{
+		"name": "PSI User",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Eagleland",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+		],
+		"attackSound": "shot"
+		"promotions": [
+			"PK Shield",
+			"PK Fire",
+			"PK Freeze",
+			"PK Thunder"
+		],
+	},
+	{
+		"name": "Centaur",
+		"unitType": "Armored",
+		"replaces": "Modern Armor",
+		"uniqueTo": "Coalition of Ordered Governments",
+		"movement": 7,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "Giant Death Robot",
+		"uniques": [
+			"[+15]% Strength <in [Friendly] tiles>",
+			"Unit will heal every turn, even if it performs an action",
+			"Can move after attacking", 
+			"No defensive terrain bonus", 
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Onyx Guard",
+		"unitType": "Gunpowder",
+		"replaces": "Paratrooper",
+		"uniqueTo": "Coalition of Ordered Governments",
+		"movement": 2,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": [
+			"[+15]% Strength <when defending>",
+			"[+15]% Strength <in [City center] tiles>",
+			"May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", 
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "ODST",
+		"unitType": "Gunpowder",
+		"replaces": "Paratrooper",
+		"uniqueTo": "United Nations Space Command",
+		"movement": 2,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"uniques": [
+			"May Paradrop to [Land] tiles up to [150] tiles away <in [{Friendly} {Land}] tiles>",
+			"Never appears as a Barbarian unit"
+		],
+		"attackSound": "shot"
+	},
+	/*
+	{
+		"name": "Glamrock Animatronic",
+		"unitType": "Civilian",
+		"replaces": "Great Artist",
+		"uniqueTo": "Freddy Fazbear's Mega Pizzaplex",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Glamrock Animatronic] group",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Animatronic",
+		"unitType": "Civilian",
+		"replaces": "Great Artist",
+		"uniqueTo": "Freddy Fazbear's Pizza",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Animatronic] group",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Springlock Animatronic",
+		"unitType": "Civilian",
+		"replaces": "Great Artist",
+		"uniqueTo": "Fazbear's Fright",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Springlock Animatronic] group",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
+	*/
+	{
+		"name": "Big Daddy",
+		"unitType": "Gunpowder",
+		"replaces": "Marine",
+		"uniqueTo": "Rapture",
+		"movement": 2,
+		"strength": 75,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
+		"uniques": [
+			"[+1] Sight <when [Embarked]>",
+			"[+100]% Strength <when defending> <when [Embarked]>"
+			"[+15]% Strength <when stacked with a [Little Sister] unit>",
+			"[-15]% Strength for enemy [Military] units in adjacent [all] tiles",
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Little Sister",
+		"unitType": "Civilian",
+		"replaces": "Great General",
+		"uniqueTo": "Rapture",
+		"uniques": [
+			"All adjacent units heal [10] HP when healing",
+			"[+1] Movement <when stacked with a [Big Daddy] unit>",
+            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [General] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"
+		],
+		"movement": 2
+	},
+	{
+		"name": "Border Guard",
+		"unitType": "Gunpowder",
+		"replaces": "Infantry",
+		"uniqueTo": "Arstotzka",
+		"movement": 2,
+		"strength": 66,
+		"cost": 244,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Mechanized Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": [
+			"[+50]% Strength <in [Friendly] tiles>",
+			"[-25]% Strength <in [non-[Friendly]] tiles>"
+		],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Great Villain",
+		"unitType": "Civilian",
+		"replaces": "Great Artist",
+		"uniqueTo": "LazyTown",
+		"uniques": [
+			"Invisible to non-adjacent units",
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Landmark] improvement <by consuming this unit>",
+            "[+25]% Strength bonus for [{Military} {Land}] units within [2] tiles <when stacked with a [Great Villain] unit>"
+            "Is part of Great Person group [Great Person]",
+            "[This Unit] gets a name from the [Villain] group",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	/*
+	{
+		"name": "Presidente",
+		"unitType": "Gunpowder",
+		"uniqueTo": "Tropico",
+		"movement": 2,
+		"strength": 9,
+		"uniques": [
+			"Unbuildable", "Uncapturable",
+			"Can move after attacking",
+			"[+7] Strength <after discovering [Iron Working]>", //16 Strength
+			"[+6] Strength <after discovering [Steel]>", //22 Strength
+			"[+4] Strength <after discovering [Gunpowder]>", //26 Strength
+			"[+12] Strength <after discovering [Rifling]>", //38 Strength
+			"[+22] Strength <after discovering [Replaceable Parts]>", //60 Strength
+			"[+20] Strength <after discovering [Plastics]>", //70 Strength
+			"[+30] Strength <after discovering [Mobile Tactics]>", //100 Strength
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement"
+			
+		]
+	},
+	//What can it do though?
+	{
+		"name": "Game Host",
+		"unitType": "Civilian",
+		"uniqueTo": "WarioWare, Inc.",
+		"uniques": [
+		],
+	},
+	*/
 ]
+	

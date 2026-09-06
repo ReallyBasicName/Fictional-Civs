@@ -1,0 +1,76 @@
+
+TileSets.png
+size: 1024, 128
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/AbsoluteUnits/Units/Badniks
+  rotate: false
+  xy: 4, 4
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Hylian Soldier
+  rotate: false
+  xy: 108, 4
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Ogre
+  rotate: false
+  xy: 212, 4
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/PSI User
+  rotate: false
+  xy: 420, 19
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
+TileSets/AbsoluteUnits/Units/Sage
+  rotate: false
+  xy: 316, 4
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Fry Cook
+  rotate: false
+  xy: 523, 72
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Great Dictator
+  rotate: false
+  xy: 523, 36
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Petercopter
+  rotate: false
+  xy: 563, 72
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Prefect
+  rotate: false
+  xy: 563, 36
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Toad Guard
+  rotate: false
+  xy: 603, 72
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
