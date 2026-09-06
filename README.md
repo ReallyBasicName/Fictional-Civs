@@ -1,2 +1,2 @@
 # Fictional-Civs
-Adds many Fictional Civs. At the moment it only has the Eggman Empire, but soon, more will come.
+Adds many Fictional Civs, currently has 34, but more will come soon. (Dialogue for many of the civs is a WIP)
